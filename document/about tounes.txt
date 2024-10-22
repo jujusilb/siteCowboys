@@ -1,0 +1,157 @@
+                        Robert « Bob » Bourgouin
+                        (Paroles et musique :
+                        Dominique Lebeau)
+                        insert into ecrire(5,56;
+                        insert into composer(5,56);
+                        insert into chanter(1,56);
+
+                        L’Hiver approche
+                        (Paroles: J-F Pauzé /
+                        Musique : J-F Pauzé et M-A Lépine)
+                        insert into ecrire(2,43);
+                        insert into composer(2,43);
+                        insert into composer(3,43);
+                        insert into chanter(1,43);
+
+                        Mon chum Rémi
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,47);
+                        insert into composer(2,47);
+                        insert into chanter(1,47);
+
+                        Le Pouceux
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,35);
+                        insert into composer(2,35);
+                        insert into chanter(1,35);
+
+                        Banlieue
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,25);
+                        insert into composer(2,25);
+                        insert into chanter(1,25);
+
+                        En berne
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,37);
+                        insert into composer(2,37);
+                        insert into chanter(1,37);
+
+                        A’ polyvalente
+                        (paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,44);
+                        insert into composer(2,44);
+                        insert into chanter(1,44);
+
+                        Awikatchikäen
+                        (Paroles : Karl Tremblay /
+                        Musique : J-F Pauzé)
+                        insert into ecrire(1,2);
+                        insert into composer(2,2);
+                        insert into chanter(1,2);
+
+                        Mon Pays
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,19);
+                        insert into composer(2,19);
+                        insert into chanter(1,19);
+
+                        Le Gars d’la compagnie
+                        (Paroles : J-F Pauzé /
+                        Musique : J-F Pauzé – M-A Lépine)
+                        insert into ecrire(2,34);
+                        insert into composer(2,34);
+                        insert into composer(3,34);
+                        insert into chanter(1,34);
+
+                        Toune d’automne
+                        (Paroles : J-F Pauzé /
+                        Musique : J-F Pauzé – M-A Lépine)
+                        insert into ecrire(2,39);
+                        insert into composer(2,39);
+                        insert into composer(3,39);
+                        insert into chanter(1,39);
+
+                        Léopold
+                        (Paroles et musique :
+                        Dominique Lebeau)
+                        insert into ecrire(5,32);
+                        insert into composer(5,32);
+                        insert into chanter(1,32);
+
+                        La manifestation
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,41);
+                        insert into composer(2,41);
+                        insert into chanter(1,41);
+
+                        Su’ mon Big Wheel (c’tait l’fun)
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,26);
+                        insert into composer(2,26);
+                        insert into chanter(1,26);
+                        
+                        Le Plombier
+                        (Paroles et musique : J-F Pauzé)
+                        insert into ecrire(2,14);
+                        insert into composer(2,14);
+                        insert into chanter(1,14);
+
+                        Un p’tit tour
+                        (Paroles : J-F Pauzé – Dom Lebeau /
+                        Musique : J-F Pauzé)
+                        insert into ecrire(2,36);
+                        insert into ecrire(5,36);
+                        insert into composer(2,36);
+                        insert into chanter(1,36);
+
+                        Québécois de souche
+                        (Paroles & Musique: Dom Lebeau)
+                        insert into ecrire(5,27);
+                        insert into composer(5,27);
+                        insert into chanter(1,27);
+
+                        Break syndical
+                        (Musique: Dom Lebeau/Marie-Annick Lépine)
+                        insert into composer(5,42);
+                        insert into composer(3,42);
+
+                        Le quai de Berthier
+                        (Paroles: Lebeau/Pauzé/Tremblay
+                        Musique: Dom Lebeau)
+                        insert into ecrire(1,21);
+                        insert into ecrire(2,21);
+                        insert into ecrire(5,21);
+                        insert into composer(5,21S);
+                        insert into chanter(1,);
+
+                        Rue Chapdelaine
+                        (Paroles & Musique: JF Pauzé)
+                        insert into ecrire(2,30);
+                        insert into composer(2,30);
+                        insert into chanter(1,30);
+
+                        Les étoiles filantes
+                        (paroles et musique J-F Pauzé)
+                        insert into ecrire(2,60);
+                        insert into composer(2,60);
+                        insert into chanter(1,60);
+
+                        Plus rien
+                        (paroles et musique J-F Pauzé)
+                        insert into ecrire(2,63);
+                        insert into composer(2,63);
+                        insert into chanter(1,63);
+
+                        Ces temps-ci
+                        (paroles et musique J-F Pauzé)
+                        insert into ecrire(2,69);
+                        insert into composer(2,69);
+                        insert into chanter(1,69);
+
+
+
+insert into ecrire(,);
+insert into composer(,);
+insert into chanter(,);
+

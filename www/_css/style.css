@@ -1,0 +1,20 @@
+body {
+	margin-top:100px;
+}
+
+.entete {
+	margin-top:100px;
+	background-color: rgb(204, 226, 233);
+}
+
+img.logo {
+	width:250px;
+}
+.selectedPic{
+    border:3px solid blue;
+}
+
+label {
+	font-weight:bold;
+	white-space: no-wrap;
+}

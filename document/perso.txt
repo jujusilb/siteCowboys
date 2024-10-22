@@ -1,0 +1,699 @@
+
+delete from personnages;
+delete FROM apparaitre;
+insert into personnages (per_id, per_nom, per_bio) values 
+(1, "le beau Andre", "Apparaissant dans la première chanson composée par Karl et J-F, il était presque sombré dans l'oubli total jusqu'au jour où il refit surface dans La noce en tant que membre de l'obscur groupe Carignan avec son comparse de toujours, Le grand Gerry et Jimmy le chanteur de noces.");
+insert into apparaitre (app_personnages, app_tounes) values (1, 1);
+insert into apparaitre (app_personnages, app_tounes) values (1, 45);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(2, "Le Grand Antonio", "Montréalais mythique décédé en 2003. Le Grand Antonio a fasciné l'univers collectif québécois en réalisant nombre d'exploits relatifs à sa force physique (Il a tiré des autobus avec ses cheveux, soulevé des voitures avec son petit doigt... etc...) Les Cowboys y font référence dans la chanson La gosse à Comeau.");
+insert into apparaitre (app_personnages, app_tounes) values (2, 23);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(3, "Les Beatles", "Groupe anglais de musique pop fondé à Liverpool en 1962 et dissous en 1970 à Londres. Goldie affirme les avoir connu dans la chanson qui porte son nom.");
+insert into apparaitre (app_personnages, app_tounes) values (3, 17);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(4, "Les Beatniks", "Adeptes de la beat generation, un mouvement qui naquit dans les années 50 et qui s'affirmait en prenant le contre-pied du mode de vie américain traditionnel. Ce mouvement a été par la suite associé au peace and love des années 60. Dans La manifestation, les beatniks (aussi appelés hippies) sont représentés par une horde de manifestants issus du cégep du Vieux-Montréal.");
+insert into apparaitre (app_personnages, app_tounes) values (4, 41);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(5, "Bob Beers", "Gardien de but fictif qui connut de nombreux déboires dont celui de s'être fait « passer dessus par l'autobus de l'équipe ». Aux dernières nouvelles, il serait maintenant propriétaire de la salle de bowling pour laquelle il travaillait, à Saskatoon.");
+insert into apparaitre (app_personnages, app_tounes) values (5, 48);
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(6, "Momon Bleau", "
+Concierge au collège de L'Assomption et ancien collègue de travail de J-F Pauzé, Raymond Bleau de son vrai nom fait partie intégrante de l'œuvre des Cowboys Fringants. Bien que son nom ne soit nommé qu'une seule fois dans une chanson (Le hurlot), il serait à l'origine de plusieurs personnages de l'œuvre des CF et son célèbre leitmotiv« À va être bonne à' soir » est la pierre angulaire de la chanson Le shack à Hector. On l'a aussi connu comme interprète de Marcel Galarneau dans le vidéo clip du même nom.");
+insert into apparaitre (app_personnages, app_tounes) values (6, 11);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(7, "les Bœufs", "Expression populaire québécoise pour désigner les policiers. Dans La manifestation les « bœufs » sont fidèles à leur réputation et « rentrent dans le tas ».");
+insert into apparaitre (app_personnages, app_tounes) values (7, 41);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(8, " un Bonhomme de Cap-Chat", "Personnage à la voix éteinte qui embarque le « pouceux » en auto-stop sur une route de Gaspésie. On sait de lui qu'il conduit une « vieille Nissan Sentra  avec des sièges en styro-mousse », qu'il n'est pas jasant et qu'il est originaire de Cap-Chat...");
+insert into apparaitre (app_personnages, app_tounes) values (8, 35);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(9, "une Bourgeoise au cul ben gros", "Femme aux attraits généreux qui se fait arnaquer par le voyou de la chanson du même nom. Celui-ci vivra quelques temps à son crochet avant qu'il ne se lasse de cet existence dorée.");
+insert into apparaitre (app_personnages, app_tounes) values (9, 31);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(10, "Brisebois", "Patrice de son prénom. Joueur de hockey professionnel qui porte les couleurs du Canadien de Montréal (2002) et qui a fait face à plusieurs critiques et rumeurs de transactions au cours de sa carrière. Les CF y font référence dans la chanson Salut mon Ron, un portrait humoristique des émissions de ligne ouvertes sportives sur les ondes radiophoniques.");
+insert into apparaitre (app_personnages, app_tounes) values (10, 48);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(11, "Brown Sugar", "Nom que porte le cheval dans la chanson Le hurlot.");
+insert into apparaitre (app_personnages, app_tounes) values (11, 11);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(12, "Vincent Caza", "(auteur-compositeur-interprète, acteur, ex-roadie, gars de party)
+Véritable mythe sur deux pattes (ou à quatre pattes selon sa consommation d'alcool), Vincent Caza est dans l'entourage des Cowboys Fringants depuis plus de 10 ans. Ami de longue date, il composera en 1998 la musique de la chanson Grosse Femme (Sur mon Canapé) et fit un caméo remarqué dans le clip de Marcel Galarneau. Crevant litéralement l'écran, il obtint en 2002 le rôle-titre du vidéo Mon chum Rémi. Un premier triomphe en tant qu'acteur !
+
+Mais c'est comme « roadie » des Cowboys que le « Gentil Vagabond » obtiendra la consécration alors qu'il se voit ovationné chaque fois qu'il entre sur scène pour accorder les guitares. Après seulement quelques spectacles, il est nommé « roadie le plus populaire au Québec » par l'équipe technique. En tournée, il repoussera les limites de la pochetronnerie en écumant les bars et les tripots les plus louches du Québec au rythme des pérépéties toujours plus loufoques les unes que les autres. Il mit cependant un terme à sa carrière de « roadie » en 2003 après plusieurs catastrophes scéniques et autres anecdotes de boisson qui font désormais partie du « folklore Caza. » En avril 2004, tel un Guy Lafleur dans l'uniforme des Rangers, il reprend du service pour un spectacle en France. C'est le dernier tour de piste pour le « bum de St-Gérard. » Il finit sa carrière en beauté après s'être vu expulsé coup sur coup de la tour Eiffel et du Sacré-Cœur pour ivresse sur la voie publique. Un fantôme d'hôtel lui portera le coup de grâce en lui faisant comprendre dans un dialecte inconnu qu'il doit réorienter sa carrière.
+
+L'incorrigible gars de party travaille aujourd'hui à la préparation de son premier album solo qui promet. Une autre étape dans la vie de cette légende vivante. À suivre...");
+insert into apparaitre (app_personnages, app_tounes) values (12, 65);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(13, "Chantal", "Fille qui s'est fait embrasser sur le siège d'un Continental et qui est parti pour rejoindre le Grand Gerry. On en sait malheureusement très peu sur elle...");
+insert into apparaitre (app_personnages, app_tounes) values (13, 12);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(14, "la Chanteuse conne", "Ne vise personne en particulier mais on en connaît plusieurs à qui le qualificatif de « chanteuse conne » collerait parfaitement. Un clin d'œil à ces bulletins de nouvelles qui présentent des nouvelles qui n'en sont pas vraiment...");
+insert into apparaitre (app_personnages, app_tounes) values (14, 38);
+
+insert into personnages (per_id, per_nom, per_bio) values (15, "la p''tite Chartrand", "Premier amour de J-F alors qu''il avait 9-10 ans. Selon ses dires, elle ne l''a cependant jamais su...");
+insert into apparaitre (app_personnages, app_tounes) values (15, 25);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(16, "le Chico", "Imbécile qui a payé le prix pour avoir ridiculisé un gars plus costaud 6que lui. Comme on dit, il s''est fait sacrer une bonne volée !");
+insert into apparaitre (app_personnages, app_tounes) values (16, 54);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(17, "mes Chums d''la Baie James", "Amis du personnage central de la chanson M''a vivre avec toi. En référence aux grands travaux des années 70 à la Baie James où des gens de partout au Québec furent engagés pour y travailler. Ils devaient alors s''exiler au nord du Québec, loin de leur patelin pour participer à l''érection des grands barrages hydro-électriques.");
+insert into apparaitre (app_personnages, app_tounes) values (17, 28);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(18, "mes Chums d''la rue Cuvillier", "Amis plus ou moins recommandables du voyou originaires de cette rue qui est située au cœur du quartier défavorisé d''Hochelaga-Maisonneuve, à Montréal.");
+insert into apparaitre (app_personnages, app_tounes) values (18, 31);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(19, "Cindy", "Héroïne de la chanson Heavy métal. Dans les années 80, elle a vécu une liaison sporadique qui a « duré le temps d''un été » avec un fan de musique heavy métal. On la reconnaissait à « ses Adidas Gazelle » et ses « cheveux longs avec des tresses qui pendaient jusqu''aux fesses ». Elle subira cependant un changement de look drastique quelques mois plus tard, troquant ses vêtements de « rockeuse » pour des habits aux couleurs pastel. On n''a pas de nouvelles d''elle depuis 1987...");
+insert into apparaitre (app_personnages, app_tounes) values (19,40);
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(20, "mon Coloc", "Colocataire du personnage de la chanson Un p''tit tour dont seule information disponible à son sujet est qu''il ''travaille su''l shift de nuit ''.");
+insert into apparaitre (app_personnages, app_tounes) values (20, 36);
+
+
+
+
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(21, "Comeau", "Personnage central de La gosse à Comeau dont les déboires reliés à l'hypertrophie d'un de ses testicules le conduisirent partout à travers le monde. Après avoir acquis une notoriété planétaire, il mourut en 1980, léguant sa gosse à la science. On sait aujourd'hui ce que les chercheurs y ont trouvé : il avait en fait une gosse de cheval !");
+(21, La gosse à Comeau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(22, "sa Copine", "Copine de Ti-Cul. Elle encouragera ce dernier à faire le choix de vivre pour sa passion.");
+(22, Ti-Cul)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(23, "Yves Corbeil", "Animateur d'émissions de télévision affiliées à Loto-Québec (tirages en tout genres) qui a fait sa renommée avec des phrases aussi célèbres que « le six avec la petite barre en dessous ». Il est aussi connu comme doubleur au cinéma et prête sa voix à plusieurs acteurs non sans provoquer certains éclats de rire. Il est cité tout à fait gratuitement dans la chanson Maurice au bistro et selon J-F Pauzé, c'est la pire rime de l'histoire des Cowboys Fringants (ex aequo avec The Box et Juke-box dans La culbute).");
+(23, Maurice au Bistro)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(24, "le Cousin policier", "Discute avec le député dans La noce. Comme quoi dans un party les policiers on des affinités avec les politiciens...");
+(24, La noce)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(25, "le Curé Boilard", "Curé qui ne déteste guère le vice et les plaisirs charnels. Il a d'ailleurs fait souvent l'objet d'enquête par le Vatican pour ses a,finalement la vie cléricale pour convoler en juste noce avec la mère de la mariée !");
+(25, La noce)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(26, "Alexandre Daigle", "Ancien premier choix de la ligue nationale de hockey qui était voué à une carrière glorieuse mais qui a abandonné après quelques années par manque de passion et de volonté. Les CF y font un clin d'œil dans la chanson La polyvalente.");
+(26, La polyvalente)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(27, "Paul Daraîche", "Paul Daraîche est dans le domaine de la musique country depuis environ 30 ans. Membre de la célèbre famille Daraîche, véritable institution de la musique country québécoise, il a ammorcé sa carrière il y a plus de 30 ans au sein de groupes pop dont Les Loups Blancs, les Sinners et Le Soleil pour ensuite contribuer aux albums de sa soeur Julie Daraîche, la « Reine du country ». Ils font carrière ensemble depuis plusieurs années avec la fille de Paul, Katia et celle de Julie, Dani. Sa complicité de longue date avec Patrick Norman et Joey Tardif ainsi que sa générosité artistique font du « Joe Cocker du country québécois » un véritable incontournable.");
+(27, Camping Ste-Germaine)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(28, "Dédé", "Inspiré par la mort d'une connaissance de J-F arrivée subitement en juin 1993 quelques temps après la conquête de la coupe Stanley par les Canadiens de Montréal. Dédé est un mélange de quelques personnes cotoyées par J-F lors de son adolescence.");
+(28, Banlieue)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(29, "le vieux bonhomme Delage", "Le bonhomme Delage est tout simplement un vieux caractériel à la personnalité limite qui n'hésiterait pas à tuer quelqu'un pour une niaiserie comme en fait foi la chanson Marcel Galarneau. Ses années dans une milice d'extrême-droite lui ont valu d'être amputé des deux pieds puisqu'il aurait marché sur une mine lors d'un entraînement militaire. C'est pour cette raison qu'il se déplace aujourd'hui à l'aide d'une « marchette ».");
+(29, Marcel Galarneau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(30, "la fille du vieux bonhomme Delage", "Femme un peu naïve qui a été élevé dans la terreur d'un père fou. Elle s'en fait « passer une petite vite » par Marcel Galarneau qui lui vend une Chevette au lieu d'une Corvette...")
+(30, Marcel Galarneau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(31, "le Député", "En vrai politicien, le député de La noce serre la main à tous les gens en présence pour « s'acheter » des votes aux prochaines élections. Ce personnage est aussi inspiré de plusieurs politiciens qui ne détestent pas l'alcool... Et comme la justice est souvent différente pour les juges, les policiers et les politiciens, notre bon député se tirera d'affaire après avoir frappé un piéton alors qu'il était au volant « de son char paqueté ». Il a même été réélu comme quoi, la mémoire collective est déficiente au Québec...");
+(31, La noce)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(32, "l'abée Desmarais", "Curé dans Marcel Galarneau. On ne lui connaît pas de caractéristiques spécifiques sinon que ses sermons sont de véritables somnifères.
+(32, Marcel Galarneau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(33, "Gilbert Dionne", "Ex-joueur de hockey qui évolua notamment pour le Canadien de Montréal au début des années 90. Reconnu pour ses commentaires loufoques beaucoup plus que pour son talent, celui qu'on surnommait « le king » est aujourd'hui sombré dans l'oubli le plus total.");
+(33, Salut mon Ron)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(34, "le Docteur", "Portrait typique du docteur de campagne québécois qui se déplaçait à domicile pour soigner ses patients. Et comme tous les docteurs de l'époque, il avait une certaine difficulté à émettre un bon diagnostic...");
+(34, La gosse à Comeau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(35, "le Douanier", "C'est ce douanier zélé qui fit la découverte de la fameuse contrebande de soie dentaire de Marcel Galarneau.");
+(35, Marcel Galarneau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(36, "Mario Dubé", "Meilleur ami du personnage central de la chanson Heavy métal, Mario Dubé est un de ces faire-valoir classique qui accompagnent les héros. Petit et laid, il rêve d'avoir une blonde (voire une relation sexuelle) mais se fait toujours devancer par ses amis. Il faut dire que son flagrant manque de subtilité ne l'aide guère. Il fait toujours des « lifts » à ses amis avec son Duster et ceux-ci ne lui payent jamais d'essence. Il pourrait se sentir exploité mais non : Mario est heureux car il se contente des petits plaisirs de la vie tels qu'un gros joint, une cassette de Ozzy et un bon hot-chicken au restaurant Broadway à trois heures du matin."=;
+(37, Heavy métal)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(38, Claude Dubois", "Chanteur québécois qui a marqué plusieurs générations avec ses innombrables succès (La rue Sanguinet, Comme un million de gens, Bébé j'a joue la toune etc...) et qui défraya les manchettes pour ses nombreuses frasques reliées à la drogue. Celui qu'on surnommait « le bum » est cité tout à fait gratuitement dans Awikatchikaën.");
+(38, Awikatchikaën)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(39, "Reggie Dunlop", "Personnage incarné par Paul Newman dans le film  Lancé frappé (v.f. de Slap-shot) où il joue le rôle d'un joueur et entraîneur d'une équipe de fiers-à-bras.");
+(39, Salut mon Ron)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(40, "les Écolos", "Assistés sociaux qui sont de toutes les manifestations pro-écologiques. Ils distribuent des tracts de Greenpeace aux gens présents et s'en retournent chez eux sans que quoi que ce soit ait changé. Ils peuvent au moins se dire qu'ils ont essayé, eux...");
+(40, La manifestation)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(41,"Elvis", "(Elvis Presley) Chanteur et acteur de cinema américain (Tupelo 1935 - Memphis 1977). Celui que l'on surnommait le « King » connut une immense popularité dès 1956 et influença profondément les goûts musicaux de la jeunesse de son époque. Son nom est cité comme référence dans la chanson Camping Ste-Germaine.");
+(41, Camping Ste-Germaine)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(42, "Évangéline", "Fille au caractère bouillant et ancienne fanatique du groupe Kashtin, elle est l'héroïne de la chanson qui porte son nom. Serveuse de restaurant de carrière (Mandarin, Red Lobster, St-Hubert) elle est devenue très aigrie avec le temps puisqu'elle a le sentiment d'avoir raté sa vie. Aujourd'hui célibataire, elle ne veut plus rien savoir des hommes et passe ses soirées dans les bars de karaoké à chanter les chansons de son idole Lara Fabian...");
+(42, Évangéline)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(43, "un Ex-prisonnier", "Il est de retour « en dedans » depuis quelques mois après une altercation dans un bar. Il a pris deux ans de prison pour voies de faits graves pour avoir tabasser un chico...");
+(43, Rue Chapdelaine)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(44, "la Femme à barbe", "Dans l'univers des cirques et des freaks shows, le cliché de la femme à barbe à été véhiculé autant que ceux de l'homme éléphant et des nains à moignons. Les Cowboys n'y ont donc pas fait exception et ils y font référence dans La gosse à Comeau.");
+(44, La gosse à Comeau)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(45, "une Femme rondelette", "Personnage qui, dans l'univers un peu surréaliste d'Awikatchikaën, a fait cuire « 4-5000 omelettes ».");
+(45, Awikatchikaën)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(46, "le géant Ferré", " (Le plombier)
+Célèbre lutteur des années 70 et 80 qui contribuera à l'âge d'or de la lutte. Qui ne se souvient pas de ses combats d'anthologie avec entre autres Hulk Hogan et de ses fameux coups de pieds. Atteint de gigantisme il est décédé il y a quelques années.");/
+(46, 
+insert into personnages (per_id, per_nom, per_bio) values 
+Filion, Ange-Albert (Karaoké)
+Propriétaire du Resto-bar Les Champions, haut lieu du karaoké.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Forain, un (Camping Ste-Germaine)
+Escroc qui a détroussé le pauvre Jay-Pee Labrosse au jeu du gun à plomb.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Fournier, Ron (Salut mon Ron)
+Ancien arbitre de la ligue nationale de hockey et animateur d'émission de lignes ouvertes sportives à la radio, Ron Fournier est un personnage coloré aux opinions franches. Son expression célèbre « pas pire, pas pire, pas pire... » et son sens de l'humour font de lui un incontournable du monde du sport. La chanson « Salut mon Ron » lui rend d'ailleurs hommage.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Fu Man Chu Laï Lou (Dieudonné Rastapopoulos)
+Fu Man Chu est un personnage assez mystérieux issu de la période 1996-97 des CF (celle de l'écriture des textes en une demi-heure !). Vivant dans un égout et étant selon la chanson « un Chinois très très fou », il causera malgré lui le suicide de Dieudonné Rastapopoulos après avoir gagné à la Mini... Un personnage qu'on ne devrait plus revoir.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gars aux cheveux grichous (qui n'avait pas de dentier et qui portait un chandail de loup) (Camping Ste-Germaine)
+Champion de pétanque, de fers et du jeu de poches qui a battu Jay-Pee Labrosse lors de l'épique « tournoi de pétanque annuel du maire ». C'est aussi lui le propriétaire du « Station Wagon peinturé au rouleau » qui a servi de véhicule à Gina Pinard pour quitter le camping en catimini. Une rumeur veut que son véritable nom soit Mario Dubé...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gars avec une « coupe champignon », un (Heavy métal)
+Personnage qui possède cette coupe de cheveux affreuse qui marqua une partie des années 80 et 90. On en sait peu sur lui sinon qu'il joue de la guitare-piano et qu'il a mis enceinte Cindy. Des rumeurs persistantes voudraient cependant qu'il se prénomme Gerry et qu'il soit grand...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gars de Donaconna, le (Platsburgh)
+Un tata qui est originaire de Donnacona et qui demeure maintenant à Platsburgh.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gars de l'équipe de balle donnée, les (Camping Ste-Germaine)
+Coéquipiers de Jay-Pee Labrosse qui ont, bien malgré eux, causé le départ de Gina.
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gars des nouvelles, le (La tête à Papineau)
+Lecteur de nouvelles (qui n'en sont pas vraiment) qui voit sa vie se terminer abruptement sur les rails de la station de métro Frontenac.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gaétane (Gaétane)
+Personnage mythique de la chanson du même nom qui fut le premier grand succès du groupe. Le destin de Gaétane est très nébuleux depuis qu'elle est partie  « par un soir de pluie ». En fait, personne ne sait ce qu'elle est devenue. Une rumeur veut que Gaétane soit un pseudonyme et qu'elle vive aujourd'hui sous sa véritable identitée. Elle reste à ce jour la plus grande énigme de l'histoire des Cowboys Fringants. On l'aurait aperçue un soir à la brasserie chez Willie...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Galarneau, Marcel (Marcel Galarneau)
+Garagiste et vendeur de « chars usagés », la renommée de Marcel Galarneau n'est plus à faire. Connu par tous pour ses arnaques minables et ses combines cousues de fil blanc, le garagiste de St-Hilaire est aujourd'hui en probation pour cinq ans après avoir purgé une peine de 2 mois de prison pour contrebande.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gérant de la caisse populaire, le (la Noce)
+Type un peu emmerdant comme on en rencontre trop souvent. Le genre de gars pas habitué d'être saoul qui tente de te vendre un RÉER en plein party de noces. La seule façon de se défaire de ce genre d'individu est de « feinter l'envie de pisser » et d'espérer qu'il ne te dise pas qu'il a lui aussi envie...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gérant, notre (La toune cachée)
+Claude Larivée de son vrai nom est immortalisé à jamais dans La toune cachée. Gérant des Cowboys et véritable force obscure de l'industrie musicale québécoise, il est aussi à la tête des disques de la Tribu. Peu de gens peuvent se vanter d'avoir vu Claude Larivée qui, selon le mythe, préserverait son mystérieux aura. Il ne serait en fait qu'une voix qui parle au téléphone...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gerry, le grand (Les routes du bonheur, Impala Blues, la Noce)
+Musicien du groupe Carignan (il joue de la guitare-piano), le grand Gerry a fait sa renommée comme étant le plus grand coureur de jupons au nord du Rio Grande. Chaud lapin, il a plusieurs conquêtes à son actif dont les plus connues sont la belle Lucille (Les routes du Bonheur) et Chantal (Impala blues). Son palmarès compte aussi des filles comme Évangéline, Gina Pinard et la femme à Yves Corbeil...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gino, le beau (Karaoké)
+Personnage ambigu qui aime bien imiter des filles en chantant mais qui est à la base un spectaculaire étalon. Son vieux truc fonctionne toujours : Il se rend au Resto-bar « Les Champions » et chante du Isabelle Boulay au karaoké. Ensuite, il regarde une fille droit dans les yeux et lui demande : « As-tu 25 cents ? Parce que j'avais toujours dit à ma mère que je lui téléphonerais quand je rencontrerais la femme de ma vie. ». À ce moment, la fille craque et il l'emmène au motel « le Flambeau » où il a des rabais tellement il est bon client !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Goldie (Goldie)
+Figure connue dans le jet set international Goldie aurait une trentaine d'albums à son actif. Au cours des années, il aurait fréquenté les grands de ce monde et vendu des millions de disques. Même si ses belles années sont derrière lui, le nom de Goldie ferait encore frémir les femmes lorsqu'il est prononcé. Il vit toujours dans sa villa de St-Sauveur avec Richard Michel, son amant (il n'a pas fait son comming out mais c'est un scoop qu'on vous donne : il est gai!) et prépare sa grande vente de garage où il vendra entre autres, sa « grosse Ford de l'année » offerte par Guy, son gérant, en 1968. Georges-Hébert Germain est en train d'écrire sa biographie non autorisée où on apprendra que toutes ses blondes de l'époque étaient en fait des façades pour masquer son homosexualité. On verra que c'est Guy qui payait les filles pour qu'elles fassent semblant de sortir avec lui. Et selon ce qu'on a appris, Guy aurait même organisé son mariage pour faire taire les rumeurs de sa relation avec Michel Girouard qui commençaient à circuler. Il a d'ailleurs fait beaucoup d'argent en vendant les cassettes de ce mariage... Sacré Guy !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gourmand, le (Le gourmand)
+Inspiré de l'homme le plus pesant de l'histoire (selon le livre Guiness des records) qui était si gros qu'on dû démolir le mur de sa chambre pour le sortir à sa mort.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Grand frère, son (Ti-Cul)
+(Frère de Ti-Cul) Jeune homme dans la vingtaine travaillant dans le domaine de la téléphonie sans fil. Il a pour valeurs le confort, l'argent, la surconsommation et apprécie les petits plaisirs de la vie comme les portions géantes du Burger King, regarder les émissions de poursuites policières et acheter des vêtements griffés fabriqués par de jeunes Taïwanais sous-payés. Il ne recycle pas et a voté ADQ aux dernières élections. Ses hobbies préférés sont : acheter des cossins inutiles, impressionner les filles moches avec son char et écouter Jeff Fillion. Il ne connaît pas la capitale de la France mais croît que les Américains forment un beau peuple. Si vous êtes intéressés par cette perle rare, laissez-lui un message sur l'une de ses boîtes vocales, sur son paget ou sur l'un de ses 24 comptes de rencontre en ligne !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gros drummer d'l'orchestre St-Sipoplette, le (Camping Ste-Germaine)
+Batteur de groupes populaires et/ou inconnus (Windstorm, Les Rockers, Pat pis Rémi, St-Sipoplette, Les Cowboys Fringants, Les p'tits Coucous, Les Presqu'assis) qui a jadis eu une réputation de charmeur. Celui que l'on connaît aussi sous le nom d'artiste de « Domlebo » est non seulement devenu très sérieux mais n'est même plus gros. Cependant, son lourd passé resurgit à l'occasion lorsqu'on doit parler de Gina Pinard...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Gros gars tatoué, un (Karaoké)
+C'est le même gars que dans Rue Chapdelaine (l'ex-prisonnier). Il passe sa vie à entrer et sortir de prison. Quand il est dehors, il vit avec sa vieille mère dépressive...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Guilbeault (Banlieue)
+Voisin et ami d'enfance de J-F, Stéphane Guilbeault existe vraiment. Il est immortalisé dans la chanson Banlieue en souvenir des journées de pluie à jouer au Colleco dans son sous-sol.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Guilbeault, Gilles (Cass de pouëlle)
+Homme de hockey de la série « Lance et compte » interprété par Michel Forget. Renommé pour sa moustache et pour sa faculté à envoyer promener les livreurs de poulet.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Guy (Goldie)
+Gérant de Goldie qui l'a propulsé vers les plus hauts sommets de popularité. Le « Guy » en question est une allusion au célèbre gérant d'artistes Guy Cloutier.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Hachey, Willie Joe (Willie Joe Hachey)
+Cow-boy solitaire qui dévalise les banques et qui brise le cœur des filles. Un genre de Lucky Luke « cheap ». (Il faut noter que ce personnage est le seul que les CF renient)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Hannah (Hannah)
+Personnage central de la chanson Hannah. Oui, elle existe vraiment et pas seulement virtuellement.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Henriette (Denise Martinez)
+Mère de Denise Martinez.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Hector (mononc') (Le shack à Hector)
+Propriétaire du célèbre shack à Hector qui aurait dû en fait s'appeler Harold (les CF ayant fait de véritables virées au chalet à Harold, le beau-père des frères Talbot). Mais comme les rimes en « old » sont rares, il s'est appelé Hector.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Hippies, les (La manifestation)
+Voir les Beatniks.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Horvatt, Bronco (Salut mon Ron)
+Ancien défenseur des Bruins de Boston qui est cité en référence dans la chanson Salut mon Ron.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Jagr, Jaromir (Le plombier)
+Joueur vedette de la ligue nationale de hockey originaire de la République Tchèque qui a longtemps porté la « coupe Longueuil » au grand plaisir des CF. (autres noms pour la « coupe Longueuil » : Coupe Jaromir Jagr (évidemment !), coupe Météore, coupe 2-4-6, coupe Carignan, coupe Motocross, coupe St-Basile, coupe « business in front party in the back », toast, toast Melba, Mulletard, Mullet, coupe Dany etc...)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Jimmy le chanteur de noces (La noce)
+Chanteur et figure de proue du groupe Carignan, il roule sa bosse depuis des années en effectuant des contrats de mariage et des spectacles dans des bars miteux. Le répertoire de Jimmy est vaste mais il se spécialise surtout dans les reprises des Doobies Brothers, de Richard Séguin et d'Offenbach.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Johnny (Goldie)
+Le Johnny mentionné dans la chanson serait en l'occurrence Johnny Farago ! Mais personne ne comprend pourquoi Goldie va faire un pèlerinage à Memphis pour « pleurer Johnny ». En plus Memphis rimait parfaitement avec Elvis ! Sûrement un caprice d'auteur...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Josée, ma chum (Awikatchikaën)
+Amie obscure du personnage principal de la chanson. Elle est probablement morte d'une overdose de whisky avec Gaston Landry dans une piquerie de Granby.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Julie à Longueuil (Goldie)
+Une des nombreuses pseudo conquêtes de Goldie... Elle demeure toujours à Longueuil avec un gars qui a une moustache, des survêtements d'entraînement et « une coupe Motocross » (cheveux aplatis sur le dessus et bien revitalisés en arrière).
+
+insert into personnages (per_id, per_nom, per_bio) values 
+King de la polyvalente, le (La polyvalente)
+Type qui était l'idole de tous à l ‘époque du secondaire mais dont les choix de vie et les malchances l'ont conduit à devenir un raté.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Koulikov, Sergeï (Cass de pouëlle)
+Dans la série télévisée « Lance et compte », joueur de hockey Russe qui rêvait de « passer à l'ouest ».
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Labrosse, Jay-Pee (La noce, Camping Ste-Germaine)
+Cousin pas mal sur le party, Jay-Pee Labrosse est un bon vivant de nature. Camionneur de profession, il vient d'épouser Gina Pinard (on connaît le faible de Gina pour les camionneurs) qui est sa troisième épouse. Ils prévoyaient un voyage de noces à Old Orchard pour leur lune de miel mais les moyens financiers de Jay-Pee étant restreints depuis la chute des actions de Bombardier, ils optèrent pour le camping Ste-Germaine à St-Sipoplette dans le comté de Caltor.
+
+Mais comme la vie fait mal les choses, l'éternel cocu qu'il est s'est encore fait jouer un tour : Gina, « sa belle », s'est poussé avec un autre type en plein voyage de noces (Camping Ste-Germaine, 2004). Certes, on pouvait s'y attendre puisque Jay-Pee participait trop activement à la vie communautaire du camping... Aujourd'hui, Jay-Pee Labrosse vit en permanance dans sa roulotte au Camping Ste-Germaine. Chaque soir de pleine lune, il met sa cassette de Marcel Martel et il hurle comme un loup en espérant que « sa belle » revienne...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lafleur, Guy (Le Plombier)
+Personnage caricatural à « la craque de fesse à l'air », Guy Lafleur - le plombier - a vécu toute sa vie dans l'ombre de son célèbre homonyme joueur de hockey. À la fois cocasse et désolant, on peut reconnaître en lui le côté pathétique de l'humain mais également une certaine fragilité et cette solitude qui l'habite depuis que « sa femme était morte ». Le genre de type qu'on prend en pitié mais qui est finalement si accaparant et encombrant qu'on a hâte qu'il s'en aille au plus sacrant !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lafleur, le vrai Guy Lafleur (Le Plombier)
+Ex-joueur de hockey célèbre qu'on surnommait le « Démon blond ». Dominant les années 70, il remportera quatre coupes Stanley au cours de sa glorieuse carrière avec Montréal. Il terminera sa carrière après un fulgurant retour avec New-York et finalement Québec.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Landry, Gaston (Awikatchikaën)
+Éponge humaine originaire de Granby qui se saoule avec 4-5000 whiskys...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Larouche, Fabienne (Québécois de souche)
+Auteure prolifique de séries télévisées (Virginie, Fortier, Urgence, etc...). Elle omniprésente depuis quelques années à la télé québécoise.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lavallée, la sœur à... (Banlieue)
+C'était plutôt la sœur à Provencher...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lepage, la mère à... (Banlieue)
+C'était en fait la mère à Brodeur...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lévesque, René (Lettre à Lévesque)
+De tous les chefs qui marquèrent le Québec moderne, nul ne changea la face de l'état autant que René Lévesque. Qu'on soit en accord ou non avec ses objectifs politiques, on ne peut qu'admirer l'intégrité, l'honnêteté, le courage et les qualités de démocrate de cet homme qui gouverna le Québec pendant neuf ans. René Lévesque a atteint un statut mythique depuis son décès. Mais qui était donc cet homme?
+
+Journaliste et homme politique québécois né à New-Carlisle en 1922. Ministre libéral de 1960 à 1966 et important acteur de la révolution tranquille, il sera l'un des grands responsables de la nationalisation de l'électricité et de la fondation d'Hydro-Québec. Après avoir claqué la porte du parti libéral, il fondera le mouvement souveraineté-association (1967), organisation préconisant l'indépendance politique du Québec et son association économique avec le reste du Canada. En 1968, le MSA devient le Parti Québécois. Après deux échecs consécutifs lors des élections de 1970 et 1973, René Lévesque devient premier-ministre du Québec en novembre 1976. Après l'échec référendaire de mai 1980, le PQ est néanmoins reporté au pouvoir en 1981 avec une majorité accrue. Lévesque convient toutefois de mettre sur la glace le projet de la souveraineté (le beau-risque), provoquant une crise au sein du parti qui l'obligera à démissionner en 1985. Il est mort des suites d'un infarctus en novembre 1987.
+
+L'héritage de René Lévesque est grand. Outre la nationalisation de l'électricité et le projet souverainiste, on lui doit la loi sur le financement des partis politiques, l'augmentation des allocations familiales, le système national d'adoption, la gratuité des soins de santé pour les assistés-sociaux, la bonification des programmes d'aide aux familles monoparentales, l'entrée en vigueur de la loi sur l'assurance-automobile et la loi 101 qui fait du français la langue officielle du Québec.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Léopold (Léopold)
+Personnage gai qui a émergé de l'imaginaire de Dominique lors d'un voyage en Gaspésie, en regardant le Rocher Percé. Comme quoi le Rocher Percé peut être une source d'inspiration pour n'importe quoi!
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lise, ma cousine... (la Noce)
+C'est la mariée dans La noce. Tout ce qu'on sait sur elle c'est qu'elle est divorcé et qu'elle s'est remariée avec un Libanais quelques temps après. Elle demeure aujourd'hui à Beyrouth et porte un voile islamique...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lola (Impala Blues)
+Héroïne d'Impala Blues, elle se poussera « avec le flot pis l'Impala » dès le deuxième couplet de la chanson, pavant la voie aux innombrables déboires de son ex-amoureux. À la fin de la chanson, on la voit faire le trottoir. Selon nos sources, elle serait morte du SIDA il y une quinzaine d'années.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lapierre, Loulou
+(Les routes du bonheur, Rue Chapdelaine, Joyeux Calvaire!)
+Lapierre de son nom de famille. Originaire de Waterloo, elle déménagera plus tard sur la rue Chapdelaine. Tout d'abord voisine de palier (La culbute, Rue Chapdelaine), on la découvre de façon plus profonde dans Joyeux Calvaire ! Personnage qui en arrache dans la vie, elle garde un bon moral et aspire en quelque sorte à un meilleur sort. Malgré le côté glauque de son existence, son attitude est à elle seule un message d'espoir.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Lucille (Les routes du bonheur)
+Habitante de Nashville, elle fut la première flamme du Grand Gerry.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Macramé Mike (La culbute)
+Issu d'une époque où le plaisir de Karl et J-F était d'inventer des noms imbéciles (Soup bol Richard, Balançoire Annie, Fenêtre Sophie, etc...), Macramé Mike est le seul qu'ils ont osé inclure dans une chanson. Le chanceux a par le fait même eu l'honneur de se farcir la belle Gina Pinard. Et pas n'importe où à part de ça : « Sur mon canapé... » !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Marguerite (Les routes du bonheur)
+La célèbre Marguerite de St-Tite qui a succombé au charme de Beau André il y a de ça très longtemps...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Marjo (Québécois de souche)
+Rockeuse québécoise qui débuta sa carrière avec le groupe Corbeau et qui connut ses plus grands succès en solo (Chats Sauvages, Provocante, etc...). Elle est cité à titre de référence dans la chanson Québécois de souche.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Martinez, Denise (Denise Martinez)
+Femme qui possède des attributs virils tels la moustache et une  « voix de Mad Dog Vachon ». Championne incontestée des coups de circuits dans les ligue de balle molle féminine et de baseball masculine, elle terminera sa carrière dans la peau de la mascotte officielle des Expos de Montréal, le très bizarre Youppi !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Marussia (Cass de pouëlle)
+Dans la série télévisée « Lance et compte », c'est la mère de Pierre Lambert et l'épouse de Gilles Guilbeault.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Matantes, mes (La noce)
+Absolument impertinentes, les matantes de La noce ne sont que d'incorigibles commères à l'affût d'un potin croustillant. Pas question pour le personnage de leur apprendre qu'il est « su'l B.S. » !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Maurice (Maurice au Bistro)
+Paumé par excellence, le gros Maurice « en a plein le dos » et raconte ses déboires à son pote « devant un bock de bière flate ». Inspiré d'une histoire vraie (celle d'un dénommé Jean, alias « Johnny », qui faisait des travaux communautaires au collège de l'Assomption à l'époque où Jean-François y était employé), on reconnaît tous en Maurice un oncle ou une connaissance qui a quelque peu raté sa vie.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Mère, maman (plusieurs chansons)
+La thématique de la mère ou de la maman revient dans plusieurs chansons. Il serait trop long de les énumérer ici.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Mère de la mariée, la (La noce)
+C'est elle qui succombera au sex-apeal du curé Boilard et qui finira dans « le back-store » avec ce dernier. Elle finira par divorcer de son mari et épousera l'ex-curé qui décide de son côté d'abandonner définitivement la vie cléricale pour convoler en juste noce.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Mère monoparentale, une (Rue Chapdelaine)
+Danseuse nue de carrière, elle est une mère irresponsable qui « ne s'occupe pas de ses trois morveux ». Elle aurait jadis connu Gina Pinard au bar « topless » le Lion d'Or mais une chicane à propos du grand Gerry les auraient séparées à jamais.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Miss January (Le shack à Hector)
+Poupoune à poil sur un calendrier du shack à Hector... Y paraît qu'elle a un beau cul !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Mononcs' bedonnants, des (La noce)
+Pas vraiment importants, ils sont là par parure dans la chanson. Non mais sérieusement, qui a envie de parler à ses mononcs' bedonnants quand en plus ça fait dix ans que tu ne les a pas vus ?
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Monroe, Marilyn (Camping Ste-Germaine)
+Actrice américaine (Los Angeles 1926 – Los Angeles 1962) qui incarna le mythe de la star hollywoodienne dans toute sa beauté et sa vulnérabilité. Son nom est cité comme référence dans la chanson Camping Ste-Germaine.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Moore, Roger (Goldie)
+Acteur qui personnifia James Bond au grand écran et qui, selon la chanson, aimait bien « les vieux long jeux » de Goldie...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Montcalm (Mon pays)
+Louis-Joseph, dit le Marquis de Montcalm était le général de l'armée Française au moment de la bataille des Plaines d'Abraham (1759) où il luttait pour repousser les Anglais. Il y fut d'ailleurs blessé mortellement en défendant Québec. Les CF y font référence dans la chanson Mon pays.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Nain, le (Spécial #6)
+Sylvain de son véritable nom est un personnage mythique qui fascine les Repentignois depuis maintenant plusieurs années. Toujours au pas de course avec les écouteurs de son « walk-man » sur les oreilles, il arpente les rues de la ville de Repentigny, suivant un itinéraire qui le mène dans les différents centres d'achats où il « scène » le plus clair de son temps. Grand fan de Coca-Cola et il discute avec les vendeuses des différentes boutiques, leur donnant parfois un coup de main. Une question persiste cependant : qu'écoute-t-il dans son « walk-man » ?
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Naslund, Mats (Le shack à Hector, Salut mon Ron)
+Ancien joueur de hockey d'origine suédoise qui a évolué pour le Canadien de Montréal au cours des années 80. Grâce à son style électrisant, il fut une idole pour les jeunes de l'époque et il aida le Canadien à remporter la Coupe Stanley de 1986. Son nom est cité à quelques reprises dans les chansons des CF.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Natasha (Cass de pouëlle)
+Femme d'origine russe qui avait toujours les seins à l'air dans la série « Lance et compte ». Sûrement un des nombreux fantasmes de Réjean Tremblay...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pape, le (Goldie)
+D'origine polonaise, Jean-Paul II, alias Karol Wojtyla, est pape de puis 1978. Goldie l'a rencontré mais « il n'y a pas parlé »...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Papineau (La tête à Papineau)
+(Louis-Joseph) Homme politique qui fut président de l'Assemblée de 1815 à 1823. À partir de 1825 jusqu'à 1837, il soutînt la cause des Canadiens français et fut l'un des artisans de la rébellion des Patriotes de 1837. Grâce à son éloquence et ses qualités d'orateur, les gens buvaient littéralement ses paroles et il passait pour quelqu'un de très intelligent. Ainsi naquit l'expression populaire « ça prends pas la tête à Papineau », qui signifie qu'il ne faut pas une grande intelligence pour comprendre une situation donnée. (exemple : Ça prends pas la tête à Papineau pour savoir que 2 et 2 donnent 4)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Parents, ses (Ti-Cul)
+Père et mère de Ti-Cul. Comme bien des parents, ils font la sourde oreille aux rêves, aux besoins et aux ambitions de leur enfant au détriment de ce qu'ils aspirent pour lui.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Paulo (La Reine)
+Chauffeur de taxi montréalais qui dit connaître l'histoire de celle que l'on surnomme la Reine.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pauvre gars, le(Karaoké)
+Paumé ultime et victime des « vidéo-pokers », il passe toute ses payes dans ces maudites machines. Quand il a découvert son char avec un sabot de Denver, il n'a pu payer la contravention. Les autorités on saisi son véhicule et selon ce que nous avons appris, la banque aurait mandaté un huissier de saisir sa maison et son mobilier. Il suit présentement une thérapie aux « Gamblers Anonymes ».
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pêcheur d'écrevisse, le (Dieudonné Rastapopoulos)
+Probablement le personnage le plus inutile de tous les temps créé par les Cowboys... En fait, cette chanson est elle-même inutile...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Père (se retrouve dans plusieurs chansons)
+La thématique du père revient dans plusieurs chanson et il serait long de tout énumérer ici.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Perron, Jean(Salut mon Ron)
+Ex-entraîneur des Canadiens de Montréal qui remporta la coupe Stanley en 1986. Depuis plusieurs années on le voit comme intervenant dans diverses émissions sportives, tant à la radio qu'à la télé. Il est également reconnu pour ses célèbres « Perronismes » (« C'est la pointe de l'asperge », « Il n'y est pas allé avec le dos de la main morte », « il y a une guerre intestinale au sein de l'équipe », etc...) qui ont fait de lui un personnage plus ou moins pris au sérieux...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pinard, Gina (L'Agacepésie, La culbute, Le pouceux, La Noce, Camping Ste-Germaine)
+Sans conteste le plus célèbre de tous les personnages de l'histoire des Cowboys Fringants, Gina Pinard divertit les gens depuis 1997 alors qu'elle effectuait sa toute première apparition dans la chanson L'Agacepésie. C'est comme danseuse nue au bar « topless » le Lion d'Or qu'on commence à la connaître. On y découvre alors un fille à la cuisse légère qui n'hésite guère à suivre quiconque pour partir à l'aventure. C'est aussi à cette époque que l'on se rend compte de son attraction quasi maladive pour les camionneurs. Après avoir perdu sa trace quelque part en Abitibi, on la retrouve plus tard (1998) dans La culbute, une chanson qui lui est entièrement consacrée. Après une « culbute » dans le Cavalier et une autre avec Macramé Mike sur le canapé, elle s'évapore dans la nature avec un « trucker » qui « descendait à Kitchener », en Ontario.
+
+Puis, coup de théâtre ! Après un court exil en Ontario, on la retrouve Trois-Rivières Ouest (2000) « au beau milieu d'une partie de fesse ». Établie au Cap-de-la-Madeleine, depuis peu, elle est couverte de dettes et doit fuir la région... Elle s'en ira vers Montréal en y abandonnant au passage le pauvre « pouceux », sur une route près de Yamaska. Puis on perd encore sa trace.
+
+On la retrouve dans La noce (2002) au bras de Jay-Pee Labrosse lors du mariage de la cousine Lise. Selon la rumeur, Jay-Pee - qui est camionneur - l'aurait ramassé dans un relais pour routiers en bordure de l'autoroute 40. Il aurait décidé de l'aider à se remettre sur le droit chemin. Pour la première fois de sa vie, Gina tombe en amour. Ils décident de se marier. Est-ce que tout ça durera ?
+
+Malheureusement, le mariage foire lors de la lune de miel dans Camping Ste-Germaine (2004). Gina s'emmerde avec Jay-Pee dans ce camping miteux. Celui-ci, bien qu'amoureux, préfère picoler et jouer aux fers plutôt que de s'occuper d'elle. Il ne lui en fallait pas plus pour tomber dans les bras du premier venu qui s'avérait être le batteur du groupe St-Sipoplette, une vieille connaissance qu'elle avait « croisée » à Woodstock en Beauce en 2001... Leurs retrouvailles furent cependant brèves puisque le batteur en question devait quitter pour un autre festival le soir-même. Prise de panique, elle ramassa rapidement ses effets dans la roulotte et fila à l'anglaise avec un champion du jeu de poches qui, à défaut d'avoir des dents, arborait fièrement le chandail de loup. Après lui avoir fait les poches, elle l'abandonna dans sa chambre du Motel Capri. On a reperdu sa trace depuis ce temps. Encore.
+
+Le personnage de Gina Pinard mérite d'être approfondi. On ne connaît rien de son enfance et des circonstances qui ont fait qu'elle soit devenue ce qu'elle est aujourd'hui. Depuis le début, on la connaît en surface mais qu'en est-il de ses sentiments ? Est-elle profondément malheureuse ou simplement tête en l'air ? Au cours des prochaines années, nous en saurons certainement plus sur elle.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Plamondon (Goldie)
+(Luc) Parolier québécois né à St-Raymond-de-Portneuf. Jeune auteur, il fut propulsé grâce à son association avec Diane Dufresne au cours des années 70. Après d'innombrables succès et des comédies musicales à succès (Starmania, La légende de Jimmy, Notre-Dame-de-Paris), il est aujourd'hui reconnu au Québec et en Europe comme étant un « génie des mots » (!)
+
+N.D.L.R. Sachez qu'en tant que biographe des Cowboys, je me disocie complètement de cette dernière affirmation. Je ne fais que rapporter les citations de certains confrères journalistes qui se sont un peu emporté...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pôpa d'la mariée, le (la Noce)
+Homme émotif et mou (dans tous les sens du mot) qui se met à brailler lorsque sa fille lance le bouquet. Il verra sa carrière de mari se terminer abruptement à cause du curé Boilard qui le rendra cocu dans le « back-store » avec sa femme. Après une période douloureuse où il a abandonné son emploi d'ingénieur, il reprendrait goût en la vie, notamment grâce à ses cours de druidisme et son intérêt marqué pour les sciences occultes.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pouceux, le (Le pouceux)
+Personnage passablement paumé qui revient de Gaspésie sur le pouce (il faut le faire !). Un des nombreux chanceux a avoir pu profiter de la grande expérience sexuelle de Gina Pinard. Si on découvre à la fin de la chanson qu'il est « sans famille et qu'il s'appelle Rémi », il ne faudrait pas le méprendre avec celui de la chanson Mon chum Rémi. Ce sont deux personnages distincts. Par contre, le « Rémi » du Pouceux serait toujours sur le bord du chemin à Yamaska...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pouvlo, le(Joyeux calvaire !)
+Connard qui sert de chum à Loulou. Irresponsable et colérique, il est à la veille de se faire sacrer là... si ce n'est pas déjà fait !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Proprio du buffet Walhy, le (Dieudonné Rastapopoulos)
+Aussi inutile que le pêcheur d'écrevisses... Le buffet Walhy est par contre un véritable établissement situé à Pointe-Aux-Trembles.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Pusher, un(Rue Chapdelaine)
+C'est un gars qui vend du hasch sur la rue Chapdelaine. On ne sait rien d'autre sur lui à part qu'il serait possiblement gai.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Rastapopoulos, Dieudonné (Dieudonné Rastapopoulos)
+Inspiré d'un pakistanais qui travaillait à La Casa Grecque de Repentigny, le personnage est en fait le croisement d'un père grec et d'une mère haïtienne. Il a la peau noire de sa mère mais les cheveux lisses du son père. Il ressemble donc à un pakistanais mais il est en fait Greco-Haïtien d'origine. Sa vie fut minable, il aura été pauvre tout au long de son existence et il se suicidera « avec un fusil, un fusil, un fusiiiiiiil » dans des circonstances étranges et pour des raisons fort nébuleuses... Bref, un grand incompris ! J-F affirmera d'ailleurs qu'il ne comprend toujours pas cette chanson et surtout, pour quelle raison ils l'ont enregistrée !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Raymonde (Les routes du bonheur)
+« Waitresss » au Bar de l'Ô à Charlemagne, la belle Raymonde est celle qui fit retrouver le bonheur au chauffeur de van !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Réal, le pouilleux de Trois-Rivières (Le pouceux)
+Un des derniers irréductibles à rouler encore en « Trans-Am » à notre époque et à porter un « coat à zippers » comme Michael Jackson. Il possède une solide coupe « météore » et se met un produit dans les cheveux pour qu'ils aient l'air mouillés en permanence. Jadis batteur de la formation « Kill with an Hammer  » avec laquelle le guitariste Steve Bergeron de Charlemagne évoluait, il est aujourd'hui aiguiseur de patins au « pro shop » de l'aréna de T-R Ouest.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Régis, le vieux (Rue Chapdelaine)
+Vieil ivrogne qui « passe ses étés sur le balcon, en camisole pis en caleçons avec une O'Keefe entre les deux cuisses ». Il espionne les allées et venues des voisins, regarde passer les taxis et, bien sûr, vit de l'assistance sociale...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Reine, la (Goldie)
+Vieille peau frigide qui orne le côté « face » de la monnaie « canayenne ».
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Reine, la (La Reine)
+Personnage principal de la chanson qui porte son nom (son surnom en fait), la Reine est inspirée directement de ces gens qui consacrent leur vie pour venir en aide aux plus démunis (le père Emmet Jones « Pops » entre autres). Mais a-t-elle existé vraiment ? L'auteur du texte vous dira qu'il l'espère vraiment.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Rémi (Mon chum Rémi)
+Personnage qui passe un mauvais coton et qui se fait remonter le moral tant bien que mal par un copain. Inspiré de deux ou trois personnes de l'entourage de J-F et possiblement un peu de lui-même.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "mon vieux chum Richard", "(, Évangéline)
+Dans le même registre d'individus que le vieux Régis, Richard tète sa bière au bar dès l'heure du dîner et s'en va vers trois heures du matin en oubliant son dentier sur le comptoir...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Roger", "(, Le shack à Hector)
+Évadé de prison qui se terre au shack à Hector, il profitera de l'état d'ébriété avancé des gens en présence pour s'enfuir avec « leur char, leur linge, leur argent et leurs clés » ! Les policiers sont toujours à sa recherche et avertissent la population qu'il est très dangereux. On le connaît aussi sous le nom du « tueur au tournevis »...");
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "dany Ross", "(, Salut mon Ron !)
+Personnage interprété par Roch Voisine dans la série télévisée « Lance et compte ».");
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"un Schizophrène", "(, Rue Chapdelaine)
+Schizo qui reste « dans l'bout d'la rue Chapdelaine »...");
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"Simon", "(, Toune d'automne)
+Copain ou ex-copain de la p'tite sœur de Toune d'automne.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"ma p'tite Sœur", " (, Toune d'automne)
+Inspiré d'une fille que J-F n'a jamais vue mais dont les parents lui ont beaucoup parlé d'elle... « J'espère qu'elle a r'trouvé l'bonheur dans son trip au Canada », affirme J-F. La petite sœur en question, c'est l'histoire de bien des jeunes Québécois et Québécoises qui partent dans l'ouest ou ailleurs pour chercher un bonheur qu'ils ne trouveront pas ailleurs que chez eux...");
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Sophie", "(, Le quai de Berthier)
+Inspiré de la Sophie de la « Guerre des Tuques », elle demeurerait toujours à Berthier et travaillerait comme réceptionniste au musée Gilles-Villeneuve.");
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Sophie", "(Ma belle Sophie)
+Fille ayant perdu sa mère évoquée dans la chanson Ma belle Sophie. À noter, il ne s'agit pas de la même Sophie que dans le Quai de Berthier!
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "le Sosie du capitaine dans Guiligan", " (Karaoké)
+Gros bonhomme qui ressemble au capitaine de la vieille série « Les joyeux naufragés ». Il s'est « claqué une embolie en chantant une toune de la Chicane » et évite depuis ce temps les soirées karaoké...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Sylvain", "(l'animateur et la moustache de pas fin) (Plattsburgh, Karaoké)
+Moustachu originaire de Crabtree qui organise aujourd'hui des disco-mobiles et qui a une compagnie de clowns. Il est également l'animateur du karaoké du samedi soir au resto-bar Les Champions. Amateurs de blagues cochones, Sylvain est votre homme !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "les frères Talbot", " (L'Agacepésie, Le shack à Hector)
+Ami de longue date, Marc Talbot est immortalisé à tout jamais dans les chansons des Cowboys Fringants. Ayant un rôle plus secondaire dans L'Agacepésie (où on fait référence à son talent de mécano) il est au premier plan dans le Shack à Hector dans son rôle de gars saoul. Une chanson qui s'intitule La cave à Talbot, relatant l'époque du Louboy (lieu mythique qui servait de tanière à une bande de paumés) à même vu le jour et sera peut-être disponible un jour. C'est pour dire à quel point Marc Talbot est non seulement un ami, mais une inspiration constante pour les CF.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+Talbot, les frères (Le shack à Hector)
+Les frères Talbot sont : Marc (voir Marc Talbot), Mathieu, le rusé de la famille et Jean-Luc, le fâché dont le patois « Beu lààà ! » est désormais célèbre. Il faut aussi noter l'originalité de leurs parents dans leur choix de nom : les quatre évangélistes y sont nommés c'est à dire Saint-Jean, Saint-Luc, Saint-Marc et Saint-Mathieu. Non mais quelle anecdote !
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"Ti-Mousse Tanguay", " (Plattsburgh)
+Camionneur gai qui aime bien « pogner les cuisses » des jeunes garçons qu'il fait monter dans son camion.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"Ti-Cul", " (Ti-Cul)
+Personnage central de la chanson du même nom, Ti-Cul est un jeune homme qui fait face à un dilemme. Étudiant au cégep en sciences humaines, il rêve de devenir comédien mais hésite à faire le grand saut dans l'univers précaire du domaine artistique puisque les gens de son entourage ne l'encouragent pas en ce sens. Histoire banale comme on en voit tant d'un gars qui, à l'aube de la vie adulte, se voit confronté à des choix difficiles et qui décidera finalement de faire ce qu'il veut vraiment : être acteur ! Aux dernières nouvelles, il n'avait toujours pas décroché de rôle...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"Ti-Louis", " (Le quai de Berthier)
+Ami du personnage principal du Quai de Berthier. C'est avec lui qu'il a passé sa jeunesse « dans les carcasses de char » et qu'il a « pogné de la barbotte en buvant du Coke et en mangeant des peanuts » sur la quai de Berthier... Ti-Louis demeure toujours dans cette ville.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"Tito", " (L'Agacepésie)
+Il remporte la palme d'être le personnage le plus inconnu de toute l'œuvre des Cowboys Fringants. Qui est-il ? Même les membres du groupe ne le savent pas ! À part avoir « passé une grosse Bleue » au personnage central de la chanson, on ne sait pas ce qu'il fait dans la vie...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "les 4-5 Tripeux de Repentigny", "(Rue Chapdelaine)
+Non ce ne sont pas, comme le veut la croyance populaire, une allusion aux membres des Cowboys Fringants. Le band de country en question est celui de Clavi-Éric, un jeune claviériste à la « coupe Dany » et de ses musiciens. D'ailleurs, vous pouvez voir ce groupe en spectacle toutes les semaines au Bar de l'Ô, à Charlemagne.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Trucker que descendait à Kitchener", "(La culbute)
+Glenn Kowalsky, camionneur de Guelph en Ontario qui a fait un « lift » et bien d'autres choses à Gina...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,"un Trucker qui r'montait en Abitibi", " (L'Agacepésie)
+Camionneur qui a lui aussi culbuté Gina dans la cabine de son « truck ». Il s'appelait Gérald Ouimet et était connu sous le surnom de Grand Gerry...
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "le Tueur au tournevis", "(L'Agacepésie)
+Voir Roger.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Turgeon", " (Goldie)
+Acteur et ancien président de l'union des artistes qui, selon la chanson, aurait sorti Goldie du trouble lorsqu'il vivait des moments pénibles dans sa carrière et sa vie personnelle.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Types extrémistes", "(La manifestation)
+Comme on en voit souvent dans les manifs, des petits casseurs qui brisent des vitrines et qui foutent le trouble. Le genre d'individus qui, par leur attitude anarchique, font malheureusement pencher l'opinion publique en faveur des forces de l'ordre. Leur action est toutefois essentielle à la démocratie quand elle demeure dans les limites de l'acceptable.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Craig Vargas", "(Salut mon Ron)
+Personnage extrêmement obscur de la série « Lance et compte » qui évolue pour les Saints de Chicoutimi, le club école du National.
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(,Boris Vasiliev", "(Cass de pouëlle)
+Personnage de la série « Lance et compte » qui fut expédié en Sibérie après une tentative ratée de « passer à l'ouest ».
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Stéphane Venne, Stéphane (Goldie)
+Auteur compositeur québécois très prolifique au cours des années 60 et 70 dont les chansons évoquaient l'espoir et l'esprit de renouveau qui régnait alors (C'est le début d'un temps nouveau, Le temps est bon, etc...). Il fut associé à plusieurs artistes et écrivit les thèmes de la Super Francofête, de l'Expo 67 et de la série télévisée « Les Plouffes ». Il quittera la vie artistique pour amorcer une carrière de fonctionnaire à la ville de Montréal au cours des années 70.
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "une Voisine qui m'fait du ketchup", "On ne sait pas son nom. Mais elle fait du très bon Ketchup...");
+(, Rue Chapdelaine)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "le Voyou", "Originaire de la Rue Ontario dans le quartier Hochelaga-Maisonneuve, le voyou en question est un petit délinquant qui, entre ses courts séjours dans les écoles de réforme et en prison, survit grâce a de petits rackets de prostitutions, des cambriolages et des vols de voitures. Malgré qu'il tente à l'occasion de prendre le droit chemin et de devenir un honnête citoyen, il finit toujours par retomber dans le monde glauque de la rue. On peut dire qu'il est en ce sens irrécupérable. Probablement marqué par une enfance où la violence était présente au quotidien (père alcoolique, violent et incestueux), le voyou se voit confronté à un avenir sans soleil, ce qu'il sait pertinemment : s'il n'a rien à perdre il est aussi conscient qu'il n'a rien à gagner. Sans espoir de s'élever socialement et sans instruction, il se résigne finalement à son sort nous laissant sur ces paroles qui veulent tout dire : « Adieu la vie, salut mes potes, chu revenu dans Hochelaga, avec mon couteau, mon sac de pot, mon chat pis mon secondaire trois ».");
+(, Voyou)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "la Waitress", "Serveuse de la brasserie Chez Willy. Elle y travaille depuis 21 ans et commence à être vraiment blasée de jaser avec des ivrognes incohérents comme mon chum Richard et le vieux Régis ainsi qu'avec des gars déprimés comme le gros Maurice et Rémi.
+(, La culbute)
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "la Waitress de restaurant", "La « jolie Évangéline » a bien mal vieillie : amère face à la vie et frustrée par les hommes, elle est célibataire depuis cinq ans et accepte mal d'être une serveuse alors qu'intérieurement, c'est une artiste qu'elle aurait voulu devenir. Déprimée, elle se rend chanter dans les bars de karaoké plusieurs fois par semaine et se saoule au Pina Colada en pleurant sur son sort...");
+(, Évangéline)
+(, Karaoké)
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "Yvon", "Homme à l'origine du divorce d'Évangéline. Elle ne l'a vu qu'une seule fois mais on peut vous affirmer qu'il lui avait menti sur sa véritable identité. Il s'agissait en fait du Grand Gerry qui était dans une mission « under cover ». Chaud lapin va...");
+(, Évangéline)
+
+
+
+
+insert into personnages (per_id, per_nom, per_bio) values 
+(, "la Voisine de palier", "Première apparition de Loulou Lapierre (sans qu'à l'époque on sache son nom).
+(La culbute)

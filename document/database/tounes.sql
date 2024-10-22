@@ -1,0 +1,226 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1:3306
+-- Généré le : mar. 25 juin 2024 à 19:26
+-- Version du serveur : 10.11.7-MariaDB-cll-lve
+-- Version de PHP : 7.2.34
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données : `u396779750_cowboys`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `tounes`
+--
+
+CREATE TABLE `tounes` (
+  `tou_id` int(11) NOT NULL,
+  `tou_libelle` varchar(100) DEFAULT NULL,
+  `tou_commentaire` varchar(5000) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Déchargement des données de la table `tounes`
+--
+
+INSERT INTO `tounes` (`tou_id`, `tou_libelle`, `tou_commentaire`) VALUES
+(1, 'Les routes du bonheur', ''),
+(2, 'Awikatchikaen', 'Par Alain Star;Plusieurs rumeurs ou légendes ont été véhiculées à propos de la chanson Awikatchikaën.;Qu’en est-il en vérité ?;Est-ce un mot issu d’un dialecte amérindien ?;Karl a-t-il vraiment été frappé d’une vision;le jour où il a composé cette chanson qui, à la base, semble anodine ?;Quel est le mystère entourant le fameux « pays d’Awikatchikaën » et de son shaman Katschë dont Karl parle toujours en spectacle ?;Et pourquoi cette chanson si simplette provoque encore et toujours, après tant d’années, le déchaînement collectif lorsque J-F en gratte les premiers accords lors des spectacles ?;Toutes des questions où il m’a été bien difficile d’avoir des réponses précises.;Puisqu’à la lumière des informations recueillies,;il semble flotter un véritable mystère autour de cette pièce.;Selon J-F, la musique de la chanson a été inspirée d’une gigue que Willy Lamothe;interprétait dans le film québécois des années 70,;Mustang;(la scène se passait dans une cuisine où les gens presque en transe et alignés le long des murs,;tapaient du pied pendant que Willy y interprétait une chanson au dialecte inconnu.;Une scène très bizarre !).;Bref, J-F fait alors écouter cette nouvelle musique à Karl lors d’une soirée qui, selon mes sources,;ne se déroulait pas sans abus de stupéfiants.;Dès la première écoute, Karl entonne instinctivement le fameux « Wan tchikatan tchikatan tchikatan..etc… ».;Ils la joueront pendant des heures.;Le temps semblait s’être arrêté et les effets de la drogue avaient mis les deux jeunes hommes dans une autre dimension.;Soudain, Karl prit une feuille et un crayon et écrivit automatiquement la chanson en cinq minutes.;Ils la chanteront jusqu’à épuisement, Karl tombant même dans un semi-coma où, selon J-F, il hallucina Katschë,;le shaman du pays d’Awikatchikaën.;Ce dernier lui aurait dit quelque chose du genre : « Avant qu’ils sombrent dans le néant, tu les feras danser jusqu’à la nuit des temps ».;À partir de ce moment, ils savaient qu’ils avaient une mission dans la vie et ont arrêté toute consommation de drogue.;Mais Karl et J-F resteront marqués par l’événement.;Ils n’en parlent d’ailleurs que de façon évasive, ne s’attardant pas sur le sujet.;On ne sait pas si l’histoire est vraie en partie ou en totalité. Nous ne le saurons probablement jamais…'),
+(3, 'Evangeline', ''),
+(4, 'Cass de pouelle', ''),
+(5, 'L\'Agacepesie', ''),
+(6, 'Dieudonne Rastapopoulos', ''),
+(7, 'Plattsburg', ''),
+(8, 'Willie Jos Hachey', ''),
+(9, 'Gaetane', ''),
+(10, 'Repentigny-by-the-sea', ''),
+(11, 'Le hurlot', ''),
+(12, 'Impala blues', ''),
+(13, 'Marcel Galarneau', ''),
+(14, 'Le plombier', 'Chanson dont l’idée de base fut inspirée d’un;« Econoline jacké deux tons, rouillé / patché avec d’la potée »;stationné en permanence sur le boulevard Iberville, à Repentigny.;Pendant plusieurs mois je passais devant ce camion;et je me disais que je devais faire une chanson en son honneur.;Mais je ne savais pas trop où diriger mon idée;jusqu’au jour où j’ai décidé de recourir aux services de Karl;qui travaillait au club vidéo De la Pointe.;Je lui ai demandé de m’écrire sur un papier;une dizaine de mots absurdes que je serais obligé d’inclure dans mon texte.;C’est ainsi qu’il me griffonna entre autres les mots;« coupe Jaromir Jagr », « craque de fesse », « velveeta », etc;En voyant le mot « craque de fesse »;et en pensant au camion rouillé,;le déclic s’est fait : faire une toune sur un plombier !;Et c’est ainsi qu’est né Guy Lafleur, le plombier.;Et par un curieux hasard, on a eu ouï dire;qu’un plombier du nom de Guy Lafleur existerait bel et bien à Varennes.;Ça reste cependant à être confirmé…'),
+(15, 'Special #6', ''),
+(16, 'Maurice au bistro', ''),
+(17, 'Goldie', ''),
+(18, 'Denise Martinez', ''),
+(19, 'Mon pays', 'Propos de J-F Pauzé recueillis par Alain Star;Au début, je voulais faire une chanson sur l’histoire d’Alexis le trotteur.;Je tripais pas mal folklore à l’époque.;Finalement, je ne sais pour quelle raison,;je me suis mis en tête d’écrire une chanson qui retracerait;les grandes lignes de l’histoire du Québec;mais de façon un peu humoristique.;Je suis donc parti de la thèse fictive;(quoique non démentie par les historiens !);qui dit que les Français ont perdu la bataille des Plaines;à cause d’une beuverie monumentale.;Puis j’ai tenté par la suite de bien isoler;les événements marquants de notre histoire,;les associant à chaque fois à la pseudo ivrognerie du peuple Québécois.;Résultat ? J’avoue bien aimer la chanson;mais c’était mes premiers balbutiements;dans l’univers de la chanson sociale.;C’est une bonne chanson mais aujourd’hui,;je ne l’aurais pas écrite de cette façon;je l’aurais probablement plus travaillée.;À vrai dire, je la trouve un peu bâclée…;Pas étonnant puisque je l’ai écrite en une demi-heure,;un dimanche matin, avant une pratique chez Jérôme !'),
+(20, 'Le Reel Des Aristocrates', ''),
+(21, 'Le quai de Berthier', 'Propos de Dominique Lebeau;recueillis par Alain Star;Alain Star: Parle-nous donc du Quai de Berthier.;Oh lala! le fameux quai!;La musique inspirée d’un genre de folklore celte,;des paroles comme « face de Lucky Luke »,;« Mike Liut » et « carcasses de chars ».;Ces dernières ont d’ailleurs été le point de départ;de la chanson qui devait d’abord se passer au Lac Saint-Jean;c’est probablement vers St-Prime ou Roberval,;en voyant un paquet de vieux camions rouillés;sur le terrain des gens que l’idée du « quai » était née:;l’enfance racontée à travers ces jeux de p’tits gars, etc…;Au même moment Jean écrivait une chanson un peu plus forte;au niveau du texte mais qui racontait un peu ça aussi, la chanson « banlieue ».;De souvenir, les refrains du quai, ou certains d’entre eux,;viennent de Karl et Jean.;Alain Star: Et qui est Guy Dubuc?;J’étais au carré coin Berri et Ste-Catherine,;le groupe Basta devait jouer sur une scène extérieure.;Un gars est venu au micro et a dit:« on cherche Guy Dubuc, si quelqu’un a vu Guy Dubuc… »;Quel bon nom ai-je pensé!;3-4 ans plus tard on a rencontré le gars en question,;pianiste et chef d’orchestre sur le show de « Gilidor ».;Je lui ai raconté l’histoire, il s’en souvenait,;c’est lui qui avait programmé des trucs pour Basta;et ce soir-là la machine ne fonctionnait pas…;Ah oui, il n’a pas une face de Lucky Luke.'),
+(22, 'Grosse femme', ''),
+(23, 'La gosse 0 Comeau', ''),
+(24, 'La culbute', ''),
+(25, 'Banlieue', 'Propos de J-F Pauzé;recueillis pas Alain Star;le 20 janvier 2003, « On était en septembre 1998.;J’avais 22 ans et je vivais depuis le mois de juillet une peine d’amour.;Le pire était passé, vous savez ces moments pénibles des premiers jours;où on ne mange pas, on ne dort pas…;Bref, je commençais à m’en remettre, comme on dit.;Je venais d’annoncer à mes parents;que je lâchais l’école pour m’occuper du groupe;(ou était-ce par manque de motivation ?;Peut-être bien !) et j’étais un peu nostalgique;du temps où j’étais un ti-cul qui n’avait;rien à penser d’autre que de jouer au hockey dans la rue.;Je fumais une cigarette dans la cour arrière de la maison de mes parents,;c’était une belle soirée d’automne;et les lueurs de la pleine lune reflétaient sur l’eau de la piscine.;Des sentiments partagés m’envahissaient.;Je balançais entre la nostalgie du temps passé,;la tristesse et un espoir certain.;La soirée était vraiment apaisante;et je suis resté dehors une bonne partie de la nuit à réfléchir.;C’est là que m’est venue l’idée de la chanson Banlieue.;J’avais, comme c’est souvent le cas,;une phrase qui me trottait dans la tête depuis l’été :;C’est comme si t’avais pris une paire de cutters /;Pis qu’t\'avais coupé le cordon de mon coeur…;Elle m’était venue quelques temps après m’être fait larguer;mais je ne savais pas comment l’inclure dans une chanson.;De toute façon, la plaie était trop vive;et je n’avais pas envie de travailler des textes.;J’avais gardé cette phrase en mémoire;elle s’est finalement insérée automatiquement dans le texte de >Banlieue.;Une chanson un peu maladroite certes,;mais qui m’a fait du bien… et m’a permis de reprendre;avec la fille en question parce qu’elle pleurait;chaque fois qu’elle l’écoutait.;Ça a du bon parfois d’être un paumé qui compose des tounes… »'),
+(26, 'Su\' mon big Wheel', 'L’histoire derrière cette chanson est très simple.;Elle fut composée très tard dans la nuit;lors d’un party chez Marc Talbot;au moment où les gens en présence avaient;un taux d’alcoolémie passablement élevé.;J’avais pris ma guitare et je grattais pour le fun;mais la cousine de Marc, qui s’appelait Josiane,;n’arrêtait pas de me gosser pour que;je lui joue une vieille chanson plate;que nous avions composée et qui s’intitulait Voir du pays.;Comme j’en avais absolument pas envie;et qu’elle commençait à m’énerver,;je lui ai improvisé cette chanson;pour qu’elle se ferme la boîte et,;l’alcool aidant, le monde l’a trouvée bien drôle.;Si bien qu’au bout d’une demi-heure,;tous la chantaient en chœur et la cousine;de Marc recommençait à m’achaler pour que cette fois,;je lui joue la « chanson du Big Wheel. »;On a décidé de l’inclure sur l’album Motel Capri en blague.;On trouvait ça drôle que tout le texte;de la chanson se retrouve dans le titre.;Ce qui est plate, c’est qu’on oublie;toujours de la jouer en spectacle…'),
+(27, 'Quebecois de souche', 'Propos de Dominique Lebeau;recueillis par Alain Star;J’ai à une époque travaillé sur un camion,;je livrais dans les secteurs industriels pour ro-na.;Je côtoyais toute sorte d’hommes surtout;avec des langages des plus colorés;et des plus remplis d’anglicismes…;Je me suis dit que ça pouvait être une toune.;Le titre au départ devait être « à‘a shop »;et se dérouler autour de ça avant que les choses aillent plus loin,;que j’en fasse une chanson sur;l’ensemble des colons que nous sommes au Québec.;On se vante d’être des vrais, des « de souche », hum…;Alain Star: Je vous ai entendu dire que l’homme du peuple;y était pour quelque chose pour ce qui est des paroles?;J’ai effectivement lâché un coup d’fil à Marc Talbot;pour ce qui est des pièces d’auto;spark-plugs et gallipers sont probablement de ses suggestions.;Il m’a ensuite suffit de glisser;les noms de Marjo et de Fabienne Larouche;puis les mots « la loi 101 tatouée sur la bouche »;pour en faire un hymne ridicule avant lequel Karl peut crier:;« Y a-t-il des Québécois de souche ici ce soir! »'),
+(28, 'M\'a vivre avec toi', ''),
+(29, 'Le shack a Hector', ''),
+(30, 'Rue Chapdelaine', 'Propos de Dominique Lebeau;recueillis par Alain Star;Je viens de voir que dans Môtel Capri;je n’avais pas de crédit de collaboration;au texte pour celle-là, un si grand succès…;Ce dont je me souviens c’est de Jean avec moi;dans le sous-sol de mes parents (ou était-ce pour le pouceux?);avec toutes ses paperasses, ses textes et sa guitare.;Il lui manquait quelques lignes pour « rue Chapdelaine ».;En fait il ne manquait pas grand chose:;leggings et joggings (quelle rime!);et parler de 4-5 trippeux de Repentigny;qui jouent dans un band de country.;Alfred Hitchcock n’aurait pas fait mieux comme caméo!;Anecdote: dans sa première version on jouait un refrain disco;(a danse dans un club de Laval) et l’autre western.;Finalement les 2 sont disco.;Les bruits de la rue sont en fait ceux de l’avenue de La Roche;entre Rosemont et Bellechasse devant le studio de Louis-Simon Hétu;qui nous avait fait une rallonge pour le micro d’environ 100 pieds!;« ôte-toé d’dans rue! » Ah, que de souvenirs…'),
+(31, 'Voyou', ''),
+(32, 'Leopold', 'C’était en 1997,;quelques semaines après la sortie non remarquée de;«12 grandes chansons».;Question de «road-tester» notre cassette,;je pars vers la Gaspésie avec une amie,;sa belle voiture (une Mazda 323 je crois);et toute notre jeunesse prête à découvrir le monde.;Ainsi, par une fin d’après-midi,;le soleil est sur le point de se coucher;et nous sommes étendus dans l’herbe, sur le bord de l’eau.;J’ai un air en tête et je regarde le Rocher Percé qui est à 2-300 mètres.;J’me dis: il faudrait qu’on joue un genre de toune d’amour à la Elvis,;mais le punch serait que le prénom en soit un de gars!;Pas de farce, je voulais écrire une chanson;pour nos plus belles voix, je pense à Sylvain Pelletier,;Bruno Cossette (et la qualité des couplets;tout comme les rimes du refrain en témoignent…).;Le concept de la chanson Léopold,;qui s’appelait à l’époque «Ton prénom», était né.;Je n’ai eu qu’à glisser «le nectar que sont tes baisers»,;un superbe «mais pointé vers le ciel», faire rimer;«amour» et «toujours» et le tour était joué!;Le résultat: une chanson quétaine à souhait;sans dénigrer ceux qui préfèrent s’aimer différemment…'),
+(33, 'Le temps perdu', ''),
+(34, 'Le gars de la compagnie', 'Propos de J-F Pauzé;recueillis par Alain Star;J’avais visionné une dizaine de fois L’Erreur Boréale,;le film de Desjardins et Monderie sur la déforestation.;J’en avais les jambes sciées.;Ce film a vraiment marqué ma vie.;En tant que jeune auteur, je voulais écrire;quelque chose sur le sujet mais j’étais ambivalent :;s’attaquer à ce sujet après qu’il ait été traité;de si belle façon et par Desjardins en plus !;Bref, je ne savais pas quoi faire.;nDepuis plus de six mois, j’avais deux phrases qui me trottaient en tête :; « Et le gars d’la compagnie rit dans sa barbe /;C’est qui le con qui a dit que l’argent poussait pas dins arbres ».; Mais impossible de trouver quoi que ce soit d’autre.;Bref, nous avions déjà fait la pré-production;pour l’album Motel Capri mais nous n’avions;que la musique de la chanson et les deux phrases !;Il fallait opérer au plus vite avant qu’on entre définitivement en studio.;Marie venait de trouver un reel de violon endiablé;mais de mon côté, j’étais toujours incapable d’écrire des paroles à cette chr… de chanson !;Finalement, le 31 décembre 1999,;quelques heures avant l’an 2000, l’inspiration arriva !;Assis dans ma cuisine du 99 Archambault à L’Assomption,;le texte a été écrit environ en deux heures;et n’a même pas été retouché.;Je le trouvais clair, précis et concis.;Il n’aurait pu être plus long.;Il disait tout ! Bref, l’attente a été longue mais en valait la chandelle.;C’est une de mes chansons préférées et je ne me lasserai jamais de la jouer en spectacle…'),
+(35, 'Le pouceux', 'Propos de J-F Pauzé;recueillis par Alain Star;Cet insuccès qu’est le Pouceux (je ne comprends d’ailleurs pas pourquoi;on la joue invariablement à chaque spectacle…);a quand même une histoire intéressante.;Quand m’est venue l’idée de faire une chanson sur un gars qui faisait du pouce,;partant de la Gaspésie jusqu’à Montréal,;j’ai décidé de le faire sans erreur géographique.;Je voulais que ça se tienne.;J’ai donc composé la chanson avec une carte routière du Québec.;C’est alors que m’est venue l’idée de faire dormir le personnage de la chanson;dans un guichet automatique (j’y tenais vraiment car mon pote Caza;le faisait souvent après des soirées trop arrosées à La Ripaille…).;Donc, ça prenait une rime avec un nom de ville qui finit en « ique ».;Il fallait aussi que la ville soit en Gaspésie;car c’était là qu’on était rendu dans le périple.;Deux choix s’imposaient : St-Ulric et le Bic…;Pas assez de syllabes pour Bic, on ne se questionne pas plus longtemps,;c’est St-Ulric qui aura la chance d’être immortalisée dans le Pouceux (!).;Le hic c’est qu’on a appris un an après la sortie de l’album;qu’il n’y avait pas de guichet automatique à St-Ulric…;Comment pouvais-je imaginer qu’en 1999 il y ait encore des villes;n’ayant pas de guichet automatique ?;Bref, la chanson sera sûrement actualisée un jour.;Ils vont bien finir par avoir un guichet !;Autre chose, si vous remarquez, la fin du texte a vraiment été botchée.;En fait, je n’arrivais pas à trouver de fin.;Dom est venu chez nous et m’a dit : « ben y’a pas de fin, c’est tout.;On va finir en disant;Si vous passez dans c’te bout-là /;Embarquez-moi !!! ».;On a aussi pensé au clin d’oeil en rapport au dessin animé Rémi;(je suis sans famille etc…).;On a trouvé ça ben drôle et on a bâclé ça là ! (rires).'),
+(36, 'Un p\'tit tour', 'Je venais d’emménager dans mon premier appartement au 99 Archambault à L’assomption.;Il n’y avait pas de calorifère dans tout l’appart.;Seulement une grosse chauffrette dans le passage;qui prenait plus d’une heure pour réchauffer tout le logement.;Il y faisait tellement froid que parfois, j’allais lire à côté du four,;la porte ouverte à 325 degrés.;J’avais composé les paroles du refrain et quelques phrases du couplet;lorsque Dom m’arriva avec d’autres paroles pour les couplets.;Finalement, les couplets sont un mélange du texte à Dom et du mien.;Ça a donné une p’tite chanson assez naïve écrite pour une fille qui était;(et qui est toujours) très chère pour moi.;P.S. « Mon coloc qui travaille su’l shift de nuit »,;c’était en fait UNE coloc puisque j’habitais avec Karine, la sœur de Karl.;Mais elle ne travaille plus su’l shift de nuit depuis quelques semaines.'),
+(37, 'En berne', '« J’étais sur la rue St-Denis à Montréal;et une mélodie m’est soudainement venue en tête.;C’était le riff de mandoline de ce qui est devenu plus tard En berne.;Donc, pour ne pas l’oublier, j’ai appelé chez moi;et je me suis fredonné l’air sur mon répondeur.;J’ai donc commencé à travailler un texte qui s’intitulait « La belle province »;(pour faire un lien avec l’ancienne devise du Québec;et le restaurant de fast-food) et qui traitait de toutes sortes de sujets.;Un genre de melting-pot de tout ce qui me faisait chier;dans la société québécoise actuelle.;Je me suis retrouvé avec une dizaine de pages;remplies de ratures et un texte beaucoup trop long ;qui faisait en sorte que la pièce aurait duré 8 minutes…;Comme je voulais faire une synthèse et avoir un texte;qui ne laissait pas d’ambiguïtés dans le message,;j’ai commencé un casse-tête qui m’a pris deux mois à terminer :;je prenais une phrase pour la mettre ailleurs,;j’inversais des couplets, je changeais des mots etc…;Finalement, au bout de quelques semaines j’étais satisfait;mais un autre problème subsistait :;je n’avais pas de paroles pour le refrain !;Si c’est ça l’Québec mon chum », « C’est tu ça pour toi l’Québec »… etc…;Rien à faire, pas une christ d’idée qui avait de l’allure !;Puis, un soir où je souffrais d’insomnie;pendant que ma blonde de l’époque ronflait à mes côtés,;j’ai pensé à « Si c’est ça l’Québec moderne… ».;Là je me suis dit que ça sonnait bien et que c’était un bon début.;Je me suis levé et j’ai fouillé dans mon dictionnaire de rimes;pour trouver des rimes en « ERNE ».;C’est là que j’ai vu « en berne ». Mettre un drapeau en berne…;Quelle belle image ça ferait !;« Si c’est ça l’Québec moderne /;ben moi j’mets mon drapeau en berne »;En me relisant, je trouvais que ça sonnait;comme un slogan de parti politique mais que dans ce cas-ci,;on se servait du slogan pour justement décrier le laxisme des québécois,;de leurs institutions et de leur classe politique…;Sans vouloir être prétentieux, je peux vous dire que cette nuit-là;j’étais ben fier de mon coup !;Bref, j’ai eu de la misère en tabar… avec cette chanson;mais ça valait le coup d’y mettre du temps !;Dire que je vais bientôt devoir me remettre à composer…;Des nuits d’insomnie en perspective… »'),
+(38, 'La tete a Papineau', ''),
+(39, 'Toune d\'automne', 'L’idée de cette chanson m’est venue de façon un peu malhonnête.;Comme je n’ai pas de sœur, je n’aurais jamais pensé écrire ce texte un jour.;Mais le hasard et une trop grande curiosité font parfois de belles chansons.;Voici l’histoire :;L’an passé, j’habitais dans un appartement au sous-sol d’une luxueuse maison située près du fleuve à St-Sulpice.;Les propriétaires, des gens très gentils et affables, aimaient bien me piquer un brin de jasette lorsque je les croisais.;Il leur est arrivé à quelques reprises de me parler de leur fille qui était partie dans l’ouest canadien depuis plusieurs mois.;Ils semblaient s’ennuyer d’elle énormément.;Toujours est-il que dans cet appartement, il y avait de l’interférence sur la ligne téléphonique et parfois,;lorsque je décrochais le récepteur, je pouvais entendre les conversations de mes propriétaires.;Habituellement, je n’écoutais pas par simple respect mais quand je suis tombé sur une conversation avec leur fille qui était dans l’ouest,;je n’ai eu d’autre choix que de faire mon écornifleux.;Je ne raconterai pas ce que disait la conversation mais je peux vous dire que ça m’a grandement inspiré pour la chanson.;Bref, j’ai demeuré à cet endroit un an et je n’ai jamais vu la fille.;J’ai déménagé avant qu’elle revienne.;Mais même si je ne la connais pas vraiment, j’espère juste, comme le dit la chanson, qu’elle a repris le dessus…'),
+(40, 'Heavy metal', ''),
+(41, 'La manifestation', 'Si je me souviens bien, l’idée de la chanson m’est venue après que;je me sois pointé avec Dom à une manifestation contre la déforestation et les coupes à blanc,;devant le siège social de la compagnie Domtar.;Nous étions arrivés là naïvement, croyant qu’avec les retombées de;« L’erreur boréale » de Desjardins et Monderie,;nous aurions droit à une manif monstre où le citoyen crierait son indignation dans la rue…;Quelle ne fut pas notre étonnement de voir à notre arrivée,;quelques hippies complètement givrés qui jouaient du tam-tam,;des assistés sociaux en manque d’activité, des militants « fumeurs de clopes »;aux propos communistes et un vieil hurluberlu complètement disjoncté qui ressemblait à Castro.;En tout, une quarantaine de personnes pour ce qui devait être une manifestation énorme.;Et comme il faisait un froid de tous les diables, les gens désertaient massivement les lieux après une heure.;Alain Star : Plusieurs personnes vous ont posé la question suivante :;est-ce que la chanson met en doute la pertinence des manifestations ou est-ce un appel à continuer le combat ?;Je dirais que je suis ambivalent.;C’est certain que pour la santé de la démocratie (ou du peu qu’il en reste !),;les phénomènes de contestation sont nécessaires, voire impératifs.;Mais en bout de ligne, ça ne change jamais rien. La contestation, c’est quitter l’ignorance.;Un peuple qui ne conteste pas, est un peuple ignare mais qui ne sait pas qu’il se fait fourrer.;Un peuple qui conteste en est un plus éveillé mais qui se fait fourrer tout autant…;Mais pour répondre à la question, oui, le texte de « La manifestation » est à double sens.;Je l’ai écrit en pleine désillusion face à la capacité des citoyens de changer les choses.;Mais c’est aussi un appel à tous les pantouflards qui ont le cul assis sur leur sofa de se lever pour une fois.;Comme quoi je suis extrêmement naïf…'),
+(42, 'Break Syndical', 'Propos de Dominique Lebeau;recueillis par Alain Star;Un beau morceau trouvé au piano.;Je me disais qu’avec un bon beat puis le violon de Marie;ça pourrait éventuellement devenir une musique de fond pour un texte pas de sens de Karl, genre « spoken-word ».;On l’a fait en spectacle, Karl parlait pendant près de 15 minutes…;On a abandonné l’idée du texte parlé mais gardé le musical.;Je pense que c’est Karl qui a trouvé le titre (et qui plus tard l’a suggéré comme titre d’album),;qui a bien du sens, c’est une pause qui fait du bien avant de répartir de plus belle!'),
+(43, 'L\'hiver approche', 'Propos de J-F Pauzé;recueillis par Alain Star;« C’est un soir de février 2001 qu’a commencé à germer l’idée de la chanson L’hiver approche.;Je n’avais rien à faire et j’étais allé passer le temps au club vidéo de la Pointe, où travaillait Karl.;Une soirée bien ordinaire.;Plus ordinaire que ça tu meures.;Bref, entre deux clopes et quelques discussions insignifiantes, je suis tombé sur un article, dans un journal X,;qui traitait de l’emprise que la publicité et la consommation ont dans nos vies d’occidentaux.;Un très bon article que j’aurais d’ailleurs dû garder…;En revenant à la maison, je me suis mis à penser à la condition de l’être humain en général et j’étais, je dois l’avouer, un peu down.;Il faut dire qu’à l’époque, je n’avais pas un rond puisque j’avais décidé quelques mois auparavant de ne plus travailler.;Décision qui avait plusieurs avantages mais qui apportait également des inconvénients d’ordre monétaire (rires).;J’étais donc tiraillé entre deux visions :;celle d’une vie pépère qui allait m’apporter un certain confort sans me poser trop de questions et celle d’un humain libre,;qui fait ses propres choix, en allant un peu à contre-courant du système établi.;C’est là que me sont venues les paroles;J’loue ma vie à un employeur /;À coup d’journées et d’gouttes de sueur /;Quand j’pense qu’on fait tout’ la putain /;Pour pouvoir s’payer des cossins /etc…;Bref, j’ai rassemblé mes idées et la toune est née comme ça. Cette chanson représente une époque de ma vie qui fut assez difficile.;Une époque où je rêvais de gagner ma vie avec la musique, où je passais d’une jobine à une autre,;où mon entourage me disait que ça n’avait pas d’allure d’exercer un emploi si précaire…;Et toujours cet automne qui me ruinait financièrement avec les maudits pneus d’hiver,;le permis de conduire à payer, les plaques, les assurances de char et le maudit gaz qui augmentait…;Pour moi , quand l’hiver approche, c’est synonyme d’être cassé… C’était encore plus vrai cette année-là !'),
+(44, 'A polyvalente', '« Quelques jours avant d’entrer en studio pour Break Syndical,;j’étais dans mon bureau et je regardais par la fenêtre d’où je peux apercevoir le collège où je suis allé au secondaire.;Je me suis mis à penser au chemin que j’avais parcouru depuis ce temps et également à me demander ce qui était advenu des gens que je côtoyais à l’époque…;Comme je n’étais pas vraiment dans la clique des gars « cool » de l’école et que je ne pouvais jamais sortir avec les belles filles (!);qui leur étaient réservées – faut dire que je mesurais 4 pieds 9 jusqu’en secondaire 4 – , j’ai commencé à griffonner un texte pour me venger !;Je me suis dit qu’il devait bien y avoir un de ces gars-là qui avait mal viré !;J’ai donc écrit cette chansonnette en une demi-heure et je l’ai présentée au groupe le soir même.;Comme les chansons de l’album étaient pratiquement choisies et coulées dans le béton,;on a dû lui faire une petite place car nous la trouvions bonne et franchement ludique…;Je suis allé par la suite à une soirée de retrouvailles au collège et j’y ai vu effectivement des personnes qui n’avaient pas trop bien viré.;D’autres qui brillaient par leur absence.;Certains, au contraire, sont demeurés les « winners » qu’ils étaient à l’époque.;Et plusieurs parmi ceux qui m’ignoraient dans le temps étaient soudainement devenus mes grands chums !;J’en ai pas fait de cas mais je riais un peu dans ma barbe… Christ que le monde est hypocrite !;(rires) »'),
+(45, 'La noce', ''),
+(46, 'Quand je r\'garde', ''),
+(47, 'Mon Chum R0mi', 'Propos de J-F Pauzé;recueillis par Alain Star;Vieille chanson qui traînait dans mes tiroirs depuis des années.;J’avais composé la musique et les paroles du refrain en 1998.;Cette chanson était inspirée à la base d’un de mes chums (dont je vais taire le vrai nom) et qui avait une mauvaise passe.;Je n’avais jamais oublié cette mélodie et je m’étais bien juré de l’utiliser un jour.;Ce qu’il y a de bon, c’est que pendant les années où elle était en stand-by dans mon tiroir,;j’ai vu plusieurs camarades passer par des moments difficiles.;Je dirais même que certains passages de la chanson sont aussi inspirés de ma propre vie.;Bref, Mon chum Rémi, c’est l’histoire de plein de gens à la fois…;Alors, quand j’ai commencé à travailler le texte des couplets, à l’été 2001, je me disais que ça irait vite…;Mais Mon chum Rémi a bien failli ne jamais être sur Break Syndical !Je n’ai jamais eu autant de difficulté avec une chanson. Incroyable !;Il y a eu au moins 30 versions différentes et quand je relis ça aujourd’hui je me dis qu’elle aurait pu être très quétaine !;C’était pathétique ! (rires) J’avais même abandonné l’idée jusqu’à temps que Marie-Annick réussisse à me convaincre de la retravailler.;Finalement, c’est lors d’un soir de canicule du mois d’août que je l’ai récrite au complet… en une demi-heure !;je suis allé voir Marie et lui ai dit : « Ça va être ça ou rien ».;Elle a pleuré en l’écoutant.;J’ai dit : « O.k. c’est ce que je voulais ! » (rires)'),
+(48, 'Salut Mon Ron', ''),
+(49, 'Joyeux calvaire', ''),
+(50, 'Ruelle Laurier', ''),
+(51, 'La toune cachee', ''),
+(52, 'La sainte paix', ''),
+(53, 'Le gourmand', ''),
+(54, 'Karaoke', ''),
+(55, 'Karaok0 version karaok0', ''),
+(56, 'Robert Bob Bourgoin', 'Propos de Dominique Lebeau;recueillis par Alain Star;Primo, j’étais avec djieff à québec pour une conférence de presse ou quelque chose du genre.;un type nous arrête dans la rue – « pouvez-vous signer ma pétition pour j’sais-pus-quoi? ».;ok, djieff signe, moi j’écris (pour rire) robert bourgouin, ottawa.;j’dis ça à dji, on riait.;secondo, quelques semaines plus tard, on est avec des têtes dirigeantes de louboy;(popol, karl, françois xavier, moi-même et peut-être djieff), on décide de faire un film:;LES COPAINS. en gros, je jouais robert bourgouin,;banlieusard qui invitait ses chums à zigonner après la piscine, le cabanon, le moteur de l’auto, etc…;françois xavier était le gars avec des théories du genre;« l’huile c’est comme le sang du moteur » ou encore « le backwash c’est comme le sang du filtreur ».;il passait son temps à m’appeler bob et moi à lui dire « non, c’est robert ».;popol arrivait toujours (puisque c’était en 5 scènes semblables;genre accumulation de running-gags poches) au bon moment avec le bon outil.;il promenait son chien aussi.;karl ne disait rien du film sauf à la fin.;après qu’on ait réparé la télé il sort: « heille, juste à temps pour regarder la game de balle! ».;quelle mauvaise réplique… faux fou rire général puis générique.;le film a dû être effacé le lendemain tellement c’était pitoyable.;la toune, ben, c’est ça, c’est à cause du film que personne ne verra jamais!;« quand j’ai 2-3 cossins à réparer dehors, s’pointent LES COPAINS et puis on jase de chars. »'),
+(57, 'Le Roi Katsh0 1ere', ''),
+(58, 'Le Roi Katsh0 2e', ''),
+(59, 'intro', ''),
+(60, 'Les etoiles filantes', 'Ça devait bien faire deux ans que j’avais cette maudite mélodie en tête.;Je la chantais toujours en voiture en y glissant des paroles incohérentes puisque le texte n’était pas écrit.;Et je ne savais pas non plus dans quelle direction l’amener au niveau musical.;Mais je l’avais toujours dans la tête.;C’est bon signe dans ce temps-là !;Puis un jour, je me suis dit qu’il fallait peut-être commencer par la base et écrire un texte.;Ce que j’ai fait.;C’est l’histoire simple, voire banale d’un gars qui, à l’aube de la trentaine,;porte un regard sur le chemin parcouru;et qui fait un espèce de bilan en se questionnant au passage sur le sens de sa vie.;Le tout sous forme de confidences faites à une amie dans un bar, rue St-Denis.;Voilà pour le canevas.;Musicalement, j’avais une petite idée mais c’est vraiment avec les autres Cowboys que Les étoiles filantes ont pris forme.;On ne savait pas trop où s’en aller en studio.;J’avais l’air d’accordéon en tête mais il manquait quelque chose.;Marie a alors ajouté une très belle ligne de piano et de la flûte traversière qui accentuent le côté mélancolique de la chanson.;Jérôme l’a agrémentée d’une superbe ligne de contrebasse,;j’ai fait trois pistes de guitares en contretemps et Dom y a ajouté des percussions.;Puis nous avons décidé de faire une intro qui serait comme un espèce de crescendo d’intensité;nous menant à l’entrée de l’accordéon et de la grosse caisse.;Puis Marie est arrivée avec son intro de piano;qui s’est mariée parfaitement avec le reste.;On a écouté le tout et… nous avions enfin une chanson qui se tenait !;Le résultat était à notre goût.;J’aime beaucoup cette chanson.;Pour moi, elle est dans mon top 2 avec L’hiver approche.;Pour le reste, je remercie cette belle étoile qui m’a inspiré le texte de la chanson un soir, dans un bar de la rue St-Denis.;Il y a de ces histoires qui n’aboutissent pas mais qu’on n’oubliera jamais.'),
+(61, 'Ti-Cul', ''),
+(62, '8 secondes', ''),
+(63, 'Plus rien', 'C’est en revenant d’une conférence d’Hubert Reeves à Châteauguay qu’a commencé à germer l’idée de la chanson Plus rien.;L’astrophysicien avait commencé sa présentation en disant quelque chose du genre :;« (…) dans l’histoire de la planète terre, il y a eu cinq extinctions majeures;(celle qu’on connaît le plus est celle des dinosaures) et elles ont toutes été la conséquence de phénomènes naturels;(météorites, changements de température, etc…).;La sixième extinction pourrait bien être celle de l’être humain.;Et ce sera la première fois qu’une espèce sera directement responsable de son extinction (…) »;J’étais dans ma voiture avec Jérôme et je réfléchissais à tout ça.;Même si ce sont des hypothèses, je ne sais pas pourquoi;mais j’ai plus tendance à croire les prévisions environnementales d’un Hubert Reeves que celles de Georges W.;Bush, Paul Martin ou autres PDG de multinationales.;Je lui ai alors dit qu’il fallait absolument faire une chanson à ce sujet.;C’est resté là.;Quelques jours plus tard, j’ai pensé écrire un texte dont le narrateur serait le dernier humain de la terre.;Dans la chanson, il exprimerait son grand désarroi face à la catastrophe qui n’a pu être évitée,;tout en relatant les faits historiques hypothétiques qui ont conduit à cette catastrophe.;Je trouvais l’idée excellente !;Tellement que j’ai composé la chanson en une heure.;Quand je l’ai fait écouter aux autres, ils étaient bouche bée.;Ils disaient que c’était très beau mais aussi très sombre.;Moi, j’étais tellement excité que je n’avais pas vu à quel point le texte était dramatique.;C’est quelques jours plus tard que je me suis rendu compte de la lourdeur du récit.;Mais bon que je me suis dit, on ne peut pas toujours parler de Gina Pinard dans la vie !'),
+(64, 'Hannah', ''),
+(65, 'Symphonie pour Caza', ''),
+(66, 'La Reine', ''),
+(67, 'En attendant', ''),
+(68, 'Lettre a Levesque', ''),
+(69, 'Ces temps-ci', 'Nous étions à la fin de la tournée Break Syndical, été 2003.;J’étais fatigué et comme ça arrive parfois dans une vie,;j’avais quelques petits problèmes personnels.;Je n’entre pas dans les détails.;Pas vraiment important et surtout, chose du passé.;J’étais dans une chambre de motel, nous venions de faire un spectacle et je n’avais pas sommeil.;À mes côtés dormait une gentille fille que j’avais croisée quelques fois depuis le début de l’été et je savais pertinemment que je ne la reverrais plus après cette nuit.;Ça me faisait un petit pincement au cœur.;Sa présence m’avait fait du bien.;C’est en égrenant les secondes de cette nuit interminable que j’ai pensé écrire Ces temps-ci.;Puis je me suis assoupi pour quelques heures.;Le lendemain je revenais chez moi avec mon pack-sac et mon char accidenté;(j’avais pogné un accident deux jours plus tôt ayant presque tué Caza et Titi Tancrède.;Je vous jure que c’était vraiment une belle époque…);et je me suis arrêté à Québec pour faire une sieste dans un hôtel car je sentais que j’allais m’endormir au volant.;C’est là, sur des feuilles de papier avec l’entête de l’hôtel, que j’ai griffonné le dernier couplet /;refrain de Ces temps-ci.;Le reste de la chanson est venu quelques semaines plus tard.;J’ai lu un jour que le fait d’écouter des chansons tristes lorsque nous sommes déprimés a un effet bénéfique sur le moral.;Je sais maintenant qu’en écrire est aussi une bonne façon de retrouver le sourire.;Ça permet de sortir le méchant et de faire un trait sur des moments un peu pénibles.;Je n’ai pas réinventé la roue mais j’aime beaucoup cette chanson.'),
+(70, 'Ma belle Sophie', ''),
+(71, 'Shish Taouk', ''),
+(72, 'Camping Ste-Germaine', ''),
+(73, 'Si la vie vous interesse', ''),
+(74, 'Epilogue', ''),
+(75, 'Le Pharmacien', ''),
+(76, 'Le Retour Du Roi Katshé', ''),
+(77, 'Voir Du Pays', ''),
+(78, 'Tendresse', ''),
+(79, 'Les Bons Légumes', ''),
+(80, 'Le Réel De La Patate Pilée', ''),
+(81, 'Droit devant', ''),
+(82, 'Chene et roseau', ''),
+(83, 'Entre deux taxis', ''),
+(84, 'La Catherine', ''),
+(85, 'Histoire de p0che', ''),
+(86, 'Bobo', ''),
+(87, 'Rue des souvenirs', ''),
+(88, 'Monsieur', ''),
+(89, 'La tete haute', ''),
+(90, 'Les hirondelles', ''),
+(91, 'Tant qu\'on aura de l\'amour', ''),
+(92, 'La bonne pomme', ''),
+(93, 'Train de vie', ''),
+(94, 'Une autre journee qui se l0ve', ''),
+(95, 'Chanteur pop', ''),
+(96, 'Beau-frere', ''),
+(97, 'La ballade de Jipi Labrosse', ''),
+(98, 'Sur un air de deja-vu', ''),
+(99, 'Par chez nous', ''),
+(100, 'Sans tambour ni trompette', ''),
+(101, 'Normal Tremblay', ''),
+(102, '1994', ''),
+(103, 'Pittoresque !', ''),
+(104, 'Vacances 31', ''),
+(105, 'le blues de la vie', ''),
+(106, 'Titi Tancr0de / Le reel d\'la fesse', ''),
+(107, 'Rentre a pied', ''),
+(108, 'Quand tu pars', ''),
+(109, 'Au pays des sapins geants', ''),
+(110, 'Doner au suivant', ''),
+(111, 'T0l0', ''),
+(112, 'Paris-Montreal', ''),
+(113, 'Marilou s\'en fout', ''),
+(114, 'L\'horloge', ''),
+(115, 'Que du vent', ''),
+(116, 'Classe moyenne', ''),
+(117, 'Comme Joe Dassin', ''),
+(118, 'Hasbeen', ''),
+(119, 'Party!', ''),
+(120, 'Shooters', ''),
+(121, 'On tient l\'coup', ''),
+(122, 'Octobre', ''),
+(123, 'Bye bye Lou', ''),
+(124, 'La la la', ''),
+(125, 'Les vers de terre', ''),
+(126, 'Pizza Galaxie', ''),
+(127, 'Les feuilles mortes', ''),
+(128, 'So so', ''),
+(129, 'La cave', ''),
+(130, 'Marine martounde', ''),
+(131, 'Oktoberfest', ''),
+(132, 'La devisse', ''),
+(133, 'Mon grand-pere', ''),
+(134, 'Louis Hebert', ''),
+(135, 'Pub Royal', ''),
+(136, 'L\'Am0rique pleure', ''),
+(137, 'Les maisons toutes pareilles', ''),
+(138, 'Suzie Prudhomme', ''),
+(139, 'Ici-bas', ''),
+(140, 'Saint-profond', ''),
+(141, 'Mononc\' Andr0', ''),
+(142, 'La travers0e (de l\'Atlantique en 1774)', ''),
+(143, 'D\'une tristesse', ''),
+(144, 'Johnny pou', ''),
+(145, 'Sur mon 0paule', ''),
+(146, 'En business', ''),
+(147, '0pique 0ric', ''),
+(148, 'Les Nuits de Repentigny', ''),
+(149, 'Le P\'tit Tommy', ''),
+(150, 'Le Long d\'la 20', ''),
+(151, 'Anguille sous roche', ''),
+(152, 'Vid0o de la Pointe', ''),
+(153, 'La Gripp', ''),
+(154, 'Fin d\'hiver', ''),
+(155, 'Le Clochard et la Lune', ''),
+(156, 'Portrait #4', ''),
+(157, 'ous-sol', ''),
+(158, 'Autodium', ''),
+(159, 'Rock camisole', ''),
+(160, 'Party d\'pouel', ''),
+(161, 'No0l brun', ''),
+(162, 'Paul', ''),
+(163, 'La Louisiane', ''),
+(164, 'Fille de club', ''),
+(165, 'Pizza Barbas', ''),
+(166, 'Dans son ciel', ''),
+(167, 'Le C0ur battant', ''),
+(168, 'Graseille', ''),
+(169, 'Des espoirs de cause', ''),
+(170, 'Bienvenue chez nous', ''),
+(171, 'Loulou vs Loulou', ''),
+(172, 'Y\'est 3 heures on ferme!', ''),
+(173, 'La fin du show', ''),
+(174, 'On fait quoi maintenant?', ''),
+(175, 'Questions sans r0ponses', ''),
+(176, 'Vie et mort de Gina Pinard', ''),
+(177, 'Loulou (partie II)', ''),
+(178, '(re)Bienvenue chez vous', ''),
+(179, 'Les cheveux blancs', ''),
+(180, 'Merci ben!', ''),
+(181, 'Les bonnes continuations', '');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

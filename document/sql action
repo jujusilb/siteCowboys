@@ -1,0 +1,26 @@
+drop table if exists action;
+create table action(
+ act_id int not null auto_increment primary key,
+act_membres int,
+act_tounes int,
+act_categorie varchar(50)
+)engine=innodb;
+
+insert into action 
+	(act_id, 
+	act_membres,
+	act_tounes,
+	act_categorie)
+	select null, ecr_membres , ecr_tounes, "ecrire" from ecrire;
+insert into action 
+	(act_id, 
+	act_membres,
+	act_tounes,
+	act_categorie)
+	select null, com_membres , com_tounes, "composer" from composer;
+insert into action 
+	(act_id, 
+	act_membres,
+	act_tounes,
+	act_categorie)
+	select null, cha_membres , cha_tounes, "chanter" from chanter;
