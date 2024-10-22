@@ -14,9 +14,9 @@ date_default_timezone_set('Europe/Paris');
 define("SITE_NOM", "Les Cowboys Fringants");
 define("DB_SERVER", "localhost");
 define("DB_PORT", "3306");
-define("DB_USER", "u396779750_Juju");
-define("DB_PWD", "Jujusilb43000@");
-define("DB_BDD", "u396779750_cowboys");
+define("DB_USER", "");
+define("DB_PWD", "");
+define("DB_BDD", "");
 
 /********************************************************/
 /** chargement des classes de base du framework        **/
